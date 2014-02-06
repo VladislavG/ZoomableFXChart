@@ -21,6 +21,8 @@
 		<field name="adj_close" indexed="true" stored="true" type="float" />
 
         <field name="spike" indexed="true" stored="true" type="string" />
+
+        <field name="series" indexed="true" stored="true" type="int" />
 	</fields>
 	
 

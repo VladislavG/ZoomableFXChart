@@ -14,6 +14,12 @@
     -fx-background-color: #474747;
 }
 
+.chart-legend{
+    -fx-background-color: #474747;
+    -fx-text-fill: #474747;
+    -fx-fill: #474747;
+}
+
 .chart-title {
     -fx-font-size: 1.4em;
     -fx-text-fill: white;

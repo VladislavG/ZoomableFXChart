@@ -5,7 +5,7 @@
 
     <servlet>
         <servlet-name>applicationServlet</servlet-name>
-        <servlet-class>template.servlet.ApplicationServlet</servlet-class>
+        <servlet-class>solrTest.servlet.ApplicationServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

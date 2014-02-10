@@ -1,4 +1,4 @@
-package template;
+package solrTest;
 
 /**
  * Place for shared information among client and server. Typically identifiers for models, attributes and actions.

@@ -74,11 +74,8 @@ public class ApplicationAction extends DolphinServerAction{
                     neighbouringValues.add(Float.valueOf(results.get(f+1).getFieldValue("high").toString()));
                     Collections.sort(neighbouringValues);
 
-                    float diffBetweenValAndMedian = median(neighbouringValues) / Float.valueOf(results.get(f).getFieldValue("high").toString());
                     movingAverages.add(median(neighbouringValues));
                 }
-                int x = 0;
-
                     for (int i = 0; i < size; i++){
                         int factorsToKeep = (int) Math.ceil(size / 600);
                         if (factorsToKeep == 0) factorsToKeep=1;
@@ -109,7 +106,6 @@ public class ApplicationAction extends DolphinServerAction{
                             }catch (Exception e){}
                         }else if(results.get(size - i).getFieldValue("spike").equals("spike")){
                             Item item = new Item();
-                            x++;
                             item.setId(results.get(i).getFieldValue("id").toString());
                             item.setDate(results.get(size - i).getFieldValue("date").toString());
                             datesUsed.add(results.get(size - i).getFieldValue("date").toString());
@@ -130,7 +126,6 @@ public class ApplicationAction extends DolphinServerAction{
                             list.add(item);
                         }else if(results.get(size - i).getFieldValue("spike").equals("diffSpike")){
                             Item item = new Item();
-                            x++;
                             item.setId(results.get(i).getFieldValue("id").toString());
                             item.setDate(results.get(size - i).getFieldValue("date").toString());
                             datesUsed.add(results.get(size - i).getFieldValue("date").toString());

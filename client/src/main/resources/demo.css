@@ -82,3 +82,11 @@
     -fx-background-color: #474747;
 }
 
+.check-box{
+    -fx-text-fill: white;
+}
+
+.stack-pane{
+    -fx-background-color: transparent;
+}
+

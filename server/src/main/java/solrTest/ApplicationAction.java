@@ -80,7 +80,9 @@ public class ApplicationAction extends DolphinServerAction{
                 int x = 0;
 
                     for (int i = 0; i < size; i++){
-                        if (i%((int) Math.ceil(size / 600)) == 0 && !(i==0) && !(results.get(size - i).getFieldValue("spike").equals("spike")) && results.get(size - i).getFieldValue("series").toString().equals("3")){
+                        int factorsToKeep = (int) Math.ceil(size / 600);
+                        if (factorsToKeep == 0) factorsToKeep=1;
+                        if (i% factorsToKeep == 0 && !(i==0) && !(results.get(size - i).getFieldValue("spike").equals("spike")) && results.get(size - i).getFieldValue("series").toString().equals("3")){
                             try{
                                 Item item = new Item();
                                 int d = 0;
@@ -125,6 +127,27 @@ public class ApplicationAction extends DolphinServerAction{
                             item.setSeries(results.get(size - i).getFieldValue("series").toString());
                             item.setLow(results.get(i).getFieldValue("low").toString());
                             item.setSpike("spike");
+                            list.add(item);
+                        }else if(results.get(size - i).getFieldValue("spike").equals("diffSpike")){
+                            Item item = new Item();
+                            x++;
+                            item.setId(results.get(i).getFieldValue("id").toString());
+                            item.setDate(results.get(size - i).getFieldValue("date").toString());
+                            datesUsed.add(results.get(size - i).getFieldValue("date").toString());
+                            try{
+
+                                float threshHold = movingAverages.get(size - i) / (Float) results.get(size - i).getFieldValue("high");
+                                item.setClose(String.valueOf(movingAverages.get(size - i) - threshHold*6));
+                                item.setOpen(String.valueOf(movingAverages.get(size - i) + threshHold*6));
+                            }catch (Exception e){
+                                item.setClose("0");
+                                item.setOpen("0");
+                            }
+                            item.setHigh(results.get(size - i).getFieldValue("high").toString());
+                            item.setAdj_close(results.get(i).getFieldValue("adj_close").toString());
+                            item.setSeries(results.get(size - i).getFieldValue("series").toString());
+                            item.setLow(results.get(i).getFieldValue("low").toString());
+                            item.setSpike("diffSpike");
                             list.add(item);
                         }else if (datesUsed.contains(results.get(size - i).getFieldValue("date").toString())){
                             try{

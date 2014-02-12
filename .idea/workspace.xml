@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="client/svr split&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12.nvd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12.nvm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12.si" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12_Lucene41_0.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12_Lucene41_0.tim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12_Lucene41_0.tip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments_1n" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_12.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="C:\Users\vladislav\jumpstart-gradle\Application.iml" afterPath="$PROJECT_DIR$/ZoomableChartDolphin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" afterPath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/demo.css" afterPath="$PROJECT_DIR$/client/src/main/resources/demo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build.gradle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,60 +84,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SolrService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="18" selection-start="9159" selection-end="9159" vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="8143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApplicationAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="33" selection-start="7449" selection-end="7449" vertical-scroll-proportion="19.56" vertical-offset="2648" max-vertical-offset="3349">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Math.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="421" column="25" selection-start="16323" selection-end="16323" vertical-scroll-proportion="0.0" vertical-offset="6487" max-vertical-offset="39202">
-              <folding>
-                <element signature="e#0#89840#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalDateTimeStringConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/LocalDateTimeStringConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1513">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Listeners.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="128" column="33" selection-start="7449" selection-end="7449" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
@@ -142,15 +96,20 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="406" column="63" selection-start="17850" selection-end="17850" vertical-scroll-proportion="0.07911392" vertical-offset="6546" max-vertical-offset="21165">
+            <state line="1270" column="38" selection-start="62662" selection-end="62662" vertical-scroll-proportion="1.0624" vertical-offset="19192" max-vertical-offset="21760">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#18863#18925#0" expanded="false" />
-                <element signature="e#19191#19270#0" expanded="false" />
-                <element signature="e#46579#46916#0" expanded="true" />
-                <element signature="e#46905#46906#0" expanded="true" />
-                <element signature="e#46958#48891#0" expanded="true" />
-                <element signature="e#48880#48881#0" expanded="true" />
+                <element signature="e#3107#3143#0" expanded="true" />
+                <element signature="e#18962#19024#0" expanded="false" />
+                <element signature="e#19290#19369#0" expanded="false" />
+                <element signature="e#41663#42194#0" expanded="true" />
+                <element signature="e#42183#42184#0" expanded="true" />
+                <element signature="e#42235#42767#0" expanded="true" />
+                <element signature="e#42756#42757#0" expanded="true" />
+                <element signature="e#42806#43006#0" expanded="true" />
+                <element signature="e#42995#42996#0" expanded="true" />
+                <element signature="e#43047#43248#0" expanded="true" />
+                <element signature="e#43237#43238#0" expanded="true" />
                 <element signature="class#XTargetChangeListener#0;class#Main#0" expanded="false" />
                 <element signature="method#registerApplicationActions#0;class#Main#0" expanded="false" />
               </folding>
@@ -158,13 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphActions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
+      <file leaf-file-name="Insets.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/geometry/Insets.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="843" max-vertical-offset="2788">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="30" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1853">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,6 +143,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -929,10 +896,10 @@
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/ClientDolphinFactory.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/demo.css" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/XForm.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Xform.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/demo.css" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" />
       </list>
     </option>
@@ -969,8 +936,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1365,6 +1330,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1400,7 +1367,7 @@
       <recent name="C:\Users\vladislav\jumpstart-gradle\client\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationInMemoryStarter">
+  <component name="RunManager" selected="Application.ApplicationStarter">
     <configuration default="false" name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="ZoomableChart" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
@@ -1763,10 +1730,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ApplicationInMemoryStarter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SolrService" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ApplicationStarter" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ApplicationStarter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ApplicationInMemoryStarter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SolrService" />
         <item index="4" class="java.lang.String" itemvalue="Groovy.build (2)" />
       </list>
     </recent_temporary>
@@ -1787,7 +1754,8 @@
       <workItem from="1391674015051" duration="5336000" />
       <workItem from="1391679497282" duration="19059000" />
       <workItem from="1392019597210" duration="24875000" />
-      <workItem from="1392106149218" duration="21722000" />
+      <workItem from="1392106149218" duration="23836000" />
+      <workItem from="1392192796510" duration="8078000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1817,51 +1785,51 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86368000" />
+    <option name="totallyTimeSpent" value="96560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3366045" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3366045" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44259077" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973504" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3366045" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19062833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24631992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28434506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1876,8 +1844,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -2047,13 +2015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/servlet/ApplicationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-shared/0.7/source/328df3d08b8669e6d99a413c64fc3116b07dc7ed/dolphin-shared-0.7-sources.jar!/org/opendolphin/core/Dolphin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="44" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1462">
@@ -2157,58 +2118,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/ApplicationStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="97" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="421" column="25" selection-start="16323" selection-end="16323" vertical-scroll-proportion="0.0" vertical-offset="6487" max-vertical-offset="39202">
-          <folding>
-            <element signature="e#0#89840#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="843" max-vertical-offset="2788">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/write.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Xform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="81" selection-start="317" selection-end="317" vertical-scroll-proportion="0.39596274" vertical-offset="0" max-vertical-offset="3111">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="18" selection-start="9159" selection-end="9159" vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="8143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="37" selection-start="1478" selection-end="1478" vertical-scroll-proportion="2.2701864" vertical-offset="51" max-vertical-offset="1666">
           <folding />
         </state>
       </provider>
@@ -2222,18 +2141,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/MoleculeSampleApp/MoleculeSampleApp/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="33" selection-start="7449" selection-end="7449" vertical-scroll-proportion="19.56" vertical-offset="2648" max-vertical-offset="3349">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Item.java">
@@ -2250,17 +2158,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/servlet/ApplicationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/ApplicationStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="53" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="34" selection-start="12881" selection-end="12883" vertical-scroll-proportion="0.33333334" vertical-offset="4317" max-vertical-offset="8143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="33" selection-start="7449" selection-end="7449" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="30" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/geometry/Insets.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="63" selection-start="17850" selection-end="17850" vertical-scroll-proportion="0.07911392" vertical-offset="6546" max-vertical-offset="21165">
+        <state line="1270" column="38" selection-start="62662" selection-end="62662" vertical-scroll-proportion="1.0624" vertical-offset="19192" max-vertical-offset="21760">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#18863#18925#0" expanded="false" />
-            <element signature="e#19191#19270#0" expanded="false" />
-            <element signature="e#46579#46916#0" expanded="true" />
-            <element signature="e#46905#46906#0" expanded="true" />
-            <element signature="e#46958#48891#0" expanded="true" />
-            <element signature="e#48880#48881#0" expanded="true" />
+            <element signature="e#3107#3143#0" expanded="true" />
+            <element signature="e#18962#19024#0" expanded="false" />
+            <element signature="e#19290#19369#0" expanded="false" />
+            <element signature="e#41663#42194#0" expanded="true" />
+            <element signature="e#42183#42184#0" expanded="true" />
+            <element signature="e#42235#42767#0" expanded="true" />
+            <element signature="e#42756#42757#0" expanded="true" />
+            <element signature="e#42806#43006#0" expanded="true" />
+            <element signature="e#42995#42996#0" expanded="true" />
+            <element signature="e#43047#43248#0" expanded="true" />
+            <element signature="e#43237#43238#0" expanded="true" />
             <element signature="class#XTargetChangeListener#0;class#Main#0" expanded="false" />
             <element signature="method#registerApplicationActions#0;class#Main#0" expanded="false" />
           </folding>

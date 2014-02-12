@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application.iml" filepath="$PROJECT_DIR$/Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZoomableChart.iml" filepath="$PROJECT_DIR$/ZoomableChart.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZoomableChartDolphin.iml" filepath="$PROJECT_DIR$/ZoomableChartDolphin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZoomableChartDophin.iml" filepath="$PROJECT_DIR$/ZoomableChartDophin.iml" />

@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="client/svr split&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application.iml" />
+    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/demo.css" afterPath="$PROJECT_DIR$/client/src/main/resources/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build.gradle.iws" />
@@ -1755,7 +1738,7 @@
       <workItem from="1391679497282" duration="19059000" />
       <workItem from="1392019597210" duration="24875000" />
       <workItem from="1392106149218" duration="23836000" />
-      <workItem from="1392192796510" duration="8078000" />
+      <workItem from="1392192796510" duration="8102000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1781,11 +1764,15 @@
       <created>1392128916259</created>
       <updated>1392128916259</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="options">
+      <created>1392212243257</created>
+      <updated>1392212243257</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96560000" />
+    <option name="totallyTimeSpent" value="96584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1865,7 +1852,8 @@
     <MESSAGE value="init&#10;" />
     <MESSAGE value="client/svr split" />
     <MESSAGE value="client/svr split&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="client/svr split&#10;" />
+    <MESSAGE value="options" />
+    <option name="LAST_COMMIT_MESSAGE" value="options" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

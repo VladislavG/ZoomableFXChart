@@ -10,6 +10,7 @@ import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.core.CoreContainer;
 import org.opendolphin.core.comm.Command;
 import org.opendolphin.core.comm.DataCommand;
+import org.opendolphin.core.server.ServerAttribute;
 import org.opendolphin.core.server.action.DolphinServerAction;
 import org.opendolphin.core.server.comm.ActionRegistry;
 import org.opendolphin.core.server.comm.CommandHandler;
@@ -47,6 +48,7 @@ public class ApplicationAction extends DolphinServerAction{
                 SolrQuery solrQuery;
                 String startDate = getServerDolphin().findPresentationModelById("STATE").findAttributeByPropertyName("STARTDATE").getValue().toString();
                 String endDate = getServerDolphin().findPresentationModelById("STATE").findAttributeByPropertyName("ENDDATE").getValue().toString();
+                changeValue((ServerAttribute) getServerDolphin().findPresentationModelById("STATE").findAttributeByPropertyName("DISABLED"), true);
 
                 solrQuery = new SolrQuery("date:[" + startDate + " TO " + endDate + "]");
 

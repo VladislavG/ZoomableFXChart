@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared/build.gradle" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\segments_1n" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\combined\build\classes\main\template\ApplicationInMemoryStarter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\combined\build\libs\combined.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\combined\build\tmp\jar\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\ApplicationAction$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\ApplicationAction.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\ApplicationDirector.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\servlet\ApplicationServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\libs\server.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\tmp\jar\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\shared\src\main\java\template\ApplicationConstants.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\vladislav\jumpstart-gradle\shared\src\main\java\template\package.html" afterPath="$PROJECT_DIR$/shared/src/main/java/solrTest/package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application.iml" afterPath="$PROJECT_DIR$/Application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" afterPath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build.gradle" afterPath="$PROJECT_DIR$/client/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combined/build.gradle" afterPath="$PROJECT_DIR$/combined/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/build.gradle" afterPath="$PROJECT_DIR$/server/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combined/combined.iml" afterPath="$PROJECT_DIR$/combined/combined.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/demo.css" afterPath="$PROJECT_DIR$/client/src/main/resources/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/shared.iml" afterPath="$PROJECT_DIR$/shared/shared.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build.gradle.iws" />
@@ -1651,7 +1603,7 @@
       <workItem from="1392106149218" duration="23836000" />
       <workItem from="1392192796510" duration="16373000" />
       <workItem from="1392279243918" duration="20058000" />
-      <workItem from="1392303282797" duration="3956000" />
+      <workItem from="1392303282797" duration="3998000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1689,11 +1641,15 @@
       <created>1392220960146</created>
       <updated>1392220960146</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="barChart">
+      <created>1392307281040</created>
+      <updated>1392307281040</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128869000" />
+    <option name="totallyTimeSpent" value="128911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1776,7 +1732,8 @@
     <MESSAGE value="options" />
     <MESSAGE value="option&#10;" />
     <MESSAGE value="css&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="css&#10;" />
+    <MESSAGE value="barChart" />
+    <option name="LAST_COMMIT_MESSAGE" value="barChart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

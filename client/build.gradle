@@ -18,6 +18,8 @@ dependencies {
 	testCompile group: 'junit', name: 'junit', version: '4.10'
     compile project(':client')
     compile project(':server')
+//    compile project(':shared')
+
     compile "org.open-dolphin:dolphin-combined:$dolphinVersion"
     compile "org.apache.solr:solr-solrj:4.5.1"
     compile "org.apache.solr:solr-core:4.5.1"

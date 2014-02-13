@@ -41,6 +41,10 @@
     -fx-effect: dropshadow(two-pass-box, white, 10, 0, 0, 0);
 }
 
+.chart-bar {
+    -fx-scale-x: 0.5;
+}
+
 .button {
     -fx-background-color:
         #090a0c,

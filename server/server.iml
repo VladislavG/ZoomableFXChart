@@ -73,6 +73,7 @@
     <orderEntry type="library" exported="" name="Gradle: unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit-4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: hamcrest-core-1.1" level="project" />
+    <orderEntry type="module" module-name="shared" exported="" />
   </component>
 </module>
 

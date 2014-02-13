@@ -2,9 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared/build.gradle" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.fdt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.fdx" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.fnm" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.nvd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.nvm" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12.si" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12_Lucene41_0.doc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12_Lucene41_0.tim" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_12_Lucene41_0.tip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\segments_1n" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\combined\build\classes\main\template\ApplicationInMemoryStarter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\combined\build\libs\combined.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\combined\build\tmp\jar\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\ApplicationAction$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\ApplicationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\ApplicationDirector.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\classes\main\template\servlet\ApplicationServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\libs\server.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\server\build\tmp\jar\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\shared\src\main\java\template\ApplicationConstants.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\vladislav\jumpstart-gradle\shared\src\main\java\template\package.html" afterPath="$PROJECT_DIR$/shared/src/main/java/solrTest/package.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application.iml" afterPath="$PROJECT_DIR$/Application.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" afterPath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build.gradle" afterPath="$PROJECT_DIR$/client/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combined/build.gradle" afterPath="$PROJECT_DIR$/combined/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/build.gradle" afterPath="$PROJECT_DIR$/server/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combined/combined.iml" afterPath="$PROJECT_DIR$/combined/combined.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/demo.css" afterPath="$PROJECT_DIR$/client/src/main/resources/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/shared.iml" afterPath="$PROJECT_DIR$/shared/shared.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build.gradle.iws" />
@@ -72,72 +118,21 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="643" column="127" selection-start="30791" selection-end="30791" vertical-scroll-proportion="0.77076924" vertical-offset="10430" max-vertical-offset="24446">
+            <state line="359" column="23" selection-start="16315" selection-end="16315" vertical-scroll-proportion="0.7408907" vertical-offset="5231" max-vertical-offset="23868">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3298#3334#0" expanded="true" />
-                <element signature="e#3413#3449#0" expanded="true" />
-                <element signature="e#3528#3564#0" expanded="true" />
-                <element signature="e#14089#14794#0" expanded="true" />
-                <element signature="e#14763#14764#0" expanded="true" />
-                <element signature="e#14847#15241#0" expanded="true" />
-                <element signature="e#15210#15211#0" expanded="true" />
-                <element signature="e#15667#15910#0" expanded="true" />
-                <element signature="e#15887#15888#0" expanded="true" />
-                <element signature="e#15957#16888#0" expanded="true" />
-                <element signature="e#16865#16866#0" expanded="true" />
-                <element signature="e#16933#17874#0" expanded="true" />
-                <element signature="e#17851#17852#0" expanded="true" />
-                <element signature="e#17921#18155#0" expanded="true" />
-                <element signature="e#18132#18133#0" expanded="true" />
-                <element signature="e#22141#22793#0" expanded="true" />
-                <element signature="e#22762#22763#0" expanded="true" />
-                <element signature="e#22846#23226#0" expanded="true" />
-                <element signature="e#23195#23196#0" expanded="true" />
-                <element signature="e#28998#29014#0" expanded="true" />
-                <element signature="e#30193#40462#0" expanded="true" />
-                <element signature="e#40455#40456#0" expanded="true" />
-                <element signature="e#42464#42673#0" expanded="true" />
-                <element signature="e#42662#42663#0" expanded="true" />
-                <element signature="e#42714#43673#0" expanded="true" />
-                <element signature="e#43662#43663#0" expanded="true" />
-                <element signature="e#43714#44675#0" expanded="true" />
-                <element signature="e#44664#44665#0" expanded="true" />
-                <element signature="e#44714#44914#0" expanded="true" />
-                <element signature="e#44903#44904#0" expanded="true" />
-                <element signature="e#44955#45156#0" expanded="true" />
-                <element signature="e#45145#45146#0" expanded="true" />
-                <element signature="e#45355#46490#0" expanded="true" />
-                <element signature="e#46479#46480#0" expanded="true" />
-                <element signature="e#46530#47074#0" expanded="true" />
-                <element signature="e#47063#47064#0" expanded="true" />
-                <element signature="e#47114#48469#0" expanded="true" />
-                <element signature="e#48458#48459#0" expanded="true" />
-                <element signature="e#48510#49191#0" expanded="true" />
-                <element signature="e#49180#49181#0" expanded="true" />
-                <element signature="e#49270#49866#0" expanded="true" />
-                <element signature="e#49855#49856#0" expanded="true" />
-                <element signature="e#49912#50249#0" expanded="true" />
-                <element signature="e#50238#50239#0" expanded="true" />
-                <element signature="e#50291#52224#0" expanded="true" />
-                <element signature="e#50532#52039#0" expanded="true" />
-                <element signature="e#50698#51973#0" expanded="true" />
-                <element signature="e#51934#51935#0" expanded="true" />
-                <element signature="e#52008#52009#0" expanded="true" />
-                <element signature="e#52213#52214#0" expanded="true" />
-                <element signature="e#52269#53458#0" expanded="true" />
-                <element signature="e#53447#53448#0" expanded="true" />
-                <element signature="e#53508#54034#0" expanded="true" />
-                <element signature="e#54023#54024#0" expanded="true" />
-                <element signature="e#54079#54747#0" expanded="true" />
-                <element signature="e#54736#54737#0" expanded="true" />
-                <element signature="e#55150#55349#0" expanded="true" />
-                <element signature="e#55338#55339#0" expanded="true" />
-                <element signature="e#55397#56913#0" expanded="true" />
-                <element signature="e#56902#56903#0" expanded="true" />
-                <element signature="e#56962#57171#0" expanded="true" />
-                <element signature="e#57160#57161#0" expanded="true" />
+                <element signature="e#9750#9817#0" expanded="false" />
+                <element signature="e#24348#24427#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Line.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/shape/Line.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="11" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1428">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,25 +140,16 @@
       <file leaf-file-name="ApplicationAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="47" selection-start="4897" selection-end="4898" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="3094">
+            <state line="85" column="68" selection-start="4174" selection-end="4174" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="3128">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/Node.class">
+      <file leaf-file-name="ApplicationConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="241" column="22" selection-start="11195" selection-end="11195" vertical-scroll-proportion="0.0" vertical-offset="3904" max-vertical-offset="24939">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Insets.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/geometry/Insets.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="19" column="51" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -172,16 +158,7 @@
       <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="36" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Listeners.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="430" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="44" column="20" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2363">
               <folding />
             </state>
           </provider>
@@ -202,7 +179,9 @@
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
-        <entry key=":client/Application/" value="false" />
+        <entry key=":client/Application/" value="true" />
+        <entry key=":server/Application/" value="false" />
+        <entry key=":shared/Application/" value="false" />
         <entry key="Application/" value="true" />
       </map>
     </option>
@@ -231,6 +210,62 @@
               <option name="taskNames">
                 <list>
                   <option value="clean" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="install" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="install" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="clean" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="build" />
                 </list>
               </option>
             </ExternalSystemSettings>
@@ -894,6 +929,26 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Does a maven install of the archives artifacts into the local .m2 cache." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="installApp" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
                 <option name="name" value="jar" />
@@ -914,6 +969,16 @@
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/shared" />
                 <option name="name" value="test" />
@@ -932,10 +997,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/combined/build.gradle" />
-        <option value="$PROJECT_DIR$/server/build.gradle" />
-        <option value="$PROJECT_DIR$/client/build.gradle" />
         <option value="$PROJECT_DIR$/shared/src/main/java/template/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/ApplicationStarter.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/solr/core/conf/schema.xml" />
@@ -946,11 +1007,21 @@
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/OpenDolphin.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/template/ApplicationAction.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/ClientDolphinFactory.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/XForm.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Xform.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
+        <option value="$PROJECT_DIR$/shared/src/main/java/constants/ApplicationConstants.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/shared/build.gradle" />
+        <option value="$PROJECT_DIR$/server/build.gradle" />
+        <option value="$PROJECT_DIR$/combined/build.gradle" />
+        <option value="$PROJECT_DIR$/client/build.gradle" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/ApplicationConstants.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/TestShared.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/TestClass.java" />
+        <option value="$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/demo.css" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" />
@@ -989,6 +1060,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1047,21 +1119,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-app" />
+              <option name="myItemId" value="solrTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1119,102 +1177,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solrTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="combined" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="combined" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solrTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1242,112 +1204,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jumpstart-gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1383,7 +1239,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1409,7 +1264,13 @@
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solrTest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vladislav\jumpstart-gradle\shared" />
+      <recent name="C:\Users\vladislav\jumpstart-gradle\combined\src\main\java" />
+      <recent name="C:\Users\vladislav\jumpstart-gradle\shared\src\main\java\solrTest" />
       <recent name="C:\Users\vladislav\jumpstart-gradle\client\src\main" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -1420,19 +1281,77 @@
       <recent name="C:\Users\vladislav\jumpstart-gradle\client\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationStarter">
-    <configuration default="false" name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="ZoomableChart" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="build (3)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="client" />
+      <setting name="path" value="file://$PROJECT_DIR$/client/build.gradle" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/client" />
       <setting name="debug" value="false" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method>
         <option name="Make" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="false" name="jumpstart-gradle:client [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="jumpstart-gradle:client [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="solrTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="solrTest.TestClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="client" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1442,90 +1361,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="solrTest.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="client" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ApplicationStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="solrTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="solrTest.ApplicationStarter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="client" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ApplicationInMemoryStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="solrTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="solrTest.ApplicationInMemoryStarter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="combined" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SolrService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="solrTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="solrTest.SolrService" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1781,19 +1616,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.build (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ApplicationStarter" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ApplicationInMemoryStarter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SolrService" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.build (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.jumpstart-gradle:client [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.jumpstart-gradle:client [build]" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestClass" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ApplicationStarter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ApplicationInMemoryStarter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SolrService" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestClass" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.jumpstart-gradle:client [build]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.jumpstart-gradle:client [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.build (3)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1814,7 +1649,9 @@
       <workItem from="1391679497282" duration="19059000" />
       <workItem from="1392019597210" duration="24875000" />
       <workItem from="1392106149218" duration="23836000" />
-      <workItem from="1392192796510" duration="16239000" />
+      <workItem from="1392192796510" duration="16373000" />
+      <workItem from="1392279243918" duration="20058000" />
+      <workItem from="1392303282797" duration="3956000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1848,38 +1685,42 @@
       <created>1392212262968</created>
       <updated>1392212262968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="css&#10;">
+      <created>1392220960146</created>
+      <updated>1392220960146</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104721000" />
+    <option name="totallyTimeSpent" value="128869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3366045" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22276741" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27379784" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27379784" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19062833" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19062833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24631992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20706575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1934,7 +1775,8 @@
     <MESSAGE value="client/svr split&#10;" />
     <MESSAGE value="options" />
     <MESSAGE value="option&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="option&#10;" />
+    <MESSAGE value="css&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="css&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1948,102 +1790,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+        <state line="45" column="20" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2363">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-app/server-app.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="11" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/java/template/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/solr/core/conf/solrconfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/solr/solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.solr/solr-core/4.5.1/source/36122beabd564c927f8bd50bf3cec10f6d88a50a/solr-core-4.5.1-sources.jar!/org/apache/solr/update/DocumentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="0" selection-start="6864" selection-end="6864" vertical-scroll-proportion="0.36617842" vertical-offset="2241" max-vertical-offset="2992" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/solr/core/conf/schema.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="67" selection-start="815" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks3.csv">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks2.csv">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/event/Event.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/Scene.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="876" column="20" selection-start="49819" selection-end="49819" vertical-scroll-proportion="0.0" vertical-offset="14758" max-vertical-offset="17102" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-client/0.7/source/269e64da44c5cb5eefec98f4cb854da9927f446c/dolphin-client-0.7-sources.jar!/org/opendolphin/core/client/comm/OnFinishedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/action/DolphinServerAction.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/comm/CommandHandler.java">
@@ -2079,9 +1830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/combined/src/main/java/solrTest/ApplicationInMemoryStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="511" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="12" column="2" selection-start="511" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-shared/0.7/source/328df3d08b8669e6d99a413c64fc3116b07dc7ed/dolphin-shared-0.7-sources.jar!/org/opendolphin/core/Dolphin.java">
@@ -2159,9 +1908,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="427" column="16" selection-start="19427" selection-end="19427" vertical-scroll-proportion="0.0" vertical-offset="6240" max-vertical-offset="11900">
-          <folding />
-        </state>
+        <state line="427" column="16" selection-start="19427" selection-end="19427" vertical-scroll-proportion="0.0" vertical-offset="6240" max-vertical-offset="11900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/ClientDolphinFactory.java">
@@ -2194,13 +1941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="843" max-vertical-offset="2788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/LocalDateTimeStringConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
@@ -2222,11 +1962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/servlet/ApplicationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="11" column="33" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/ApplicationStarter.java">
@@ -2238,25 +1974,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="34" selection-start="12881" selection-end="12883" vertical-scroll-proportion="0.33333334" vertical-offset="4317" max-vertical-offset="8143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/geometry/Insets.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="22" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/Node.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="22" selection-start="11195" selection-end="11195" vertical-scroll-proportion="0.0" vertical-offset="3904" max-vertical-offset="24939">
-          <folding />
-        </state>
+        <state line="241" column="22" selection-start="11195" selection-end="11195" vertical-scroll-proportion="0.0" vertical-offset="3904" max-vertical-offset="24939" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java">
@@ -2266,87 +1991,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/ubsstocks.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="57290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks3.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/nasdaq.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184586" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="59" selection-start="7484" selection-end="7484" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="8585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="69" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/main/java/solrTest/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/client.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="355" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="353" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combined/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="3" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="245" selection-end="245" vertical-scroll-proportion="0.34228188" vertical-offset="0" max-vertical-offset="596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/shape/Line.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="36" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2295">
+        <state line="44" column="20" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2363">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="47" selection-start="4897" selection-end="4898" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="3094">
+        <state line="85" column="68" selection-start="4174" selection-end="4174" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="3128">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="643" column="127" selection-start="30791" selection-end="30791" vertical-scroll-proportion="0.77076924" vertical-offset="10430" max-vertical-offset="24446">
+        <state line="359" column="23" selection-start="16315" selection-end="16315" vertical-scroll-proportion="0.7408907" vertical-offset="5231" max-vertical-offset="23868">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3298#3334#0" expanded="true" />
-            <element signature="e#3413#3449#0" expanded="true" />
-            <element signature="e#3528#3564#0" expanded="true" />
-            <element signature="e#14089#14794#0" expanded="true" />
-            <element signature="e#14763#14764#0" expanded="true" />
-            <element signature="e#14847#15241#0" expanded="true" />
-            <element signature="e#15210#15211#0" expanded="true" />
-            <element signature="e#15667#15910#0" expanded="true" />
-            <element signature="e#15887#15888#0" expanded="true" />
-            <element signature="e#15957#16888#0" expanded="true" />
-            <element signature="e#16865#16866#0" expanded="true" />
-            <element signature="e#16933#17874#0" expanded="true" />
-            <element signature="e#17851#17852#0" expanded="true" />
-            <element signature="e#17921#18155#0" expanded="true" />
-            <element signature="e#18132#18133#0" expanded="true" />
-            <element signature="e#22141#22793#0" expanded="true" />
-            <element signature="e#22762#22763#0" expanded="true" />
-            <element signature="e#22846#23226#0" expanded="true" />
-            <element signature="e#23195#23196#0" expanded="true" />
-            <element signature="e#28998#29014#0" expanded="true" />
-            <element signature="e#30193#40462#0" expanded="true" />
-            <element signature="e#40455#40456#0" expanded="true" />
-            <element signature="e#42464#42673#0" expanded="true" />
-            <element signature="e#42662#42663#0" expanded="true" />
-            <element signature="e#42714#43673#0" expanded="true" />
-            <element signature="e#43662#43663#0" expanded="true" />
-            <element signature="e#43714#44675#0" expanded="true" />
-            <element signature="e#44664#44665#0" expanded="true" />
-            <element signature="e#44714#44914#0" expanded="true" />
-            <element signature="e#44903#44904#0" expanded="true" />
-            <element signature="e#44955#45156#0" expanded="true" />
-            <element signature="e#45145#45146#0" expanded="true" />
-            <element signature="e#45355#46490#0" expanded="true" />
-            <element signature="e#46479#46480#0" expanded="true" />
-            <element signature="e#46530#47074#0" expanded="true" />
-            <element signature="e#47063#47064#0" expanded="true" />
-            <element signature="e#47114#48469#0" expanded="true" />
-            <element signature="e#48458#48459#0" expanded="true" />
-            <element signature="e#48510#49191#0" expanded="true" />
-            <element signature="e#49180#49181#0" expanded="true" />
-            <element signature="e#49270#49866#0" expanded="true" />
-            <element signature="e#49855#49856#0" expanded="true" />
-            <element signature="e#49912#50249#0" expanded="true" />
-            <element signature="e#50238#50239#0" expanded="true" />
-            <element signature="e#50291#52224#0" expanded="true" />
-            <element signature="e#50532#52039#0" expanded="true" />
-            <element signature="e#50698#51973#0" expanded="true" />
-            <element signature="e#51934#51935#0" expanded="true" />
-            <element signature="e#52008#52009#0" expanded="true" />
-            <element signature="e#52213#52214#0" expanded="true" />
-            <element signature="e#52269#53458#0" expanded="true" />
-            <element signature="e#53447#53448#0" expanded="true" />
-            <element signature="e#53508#54034#0" expanded="true" />
-            <element signature="e#54023#54024#0" expanded="true" />
-            <element signature="e#54079#54747#0" expanded="true" />
-            <element signature="e#54736#54737#0" expanded="true" />
-            <element signature="e#55150#55349#0" expanded="true" />
-            <element signature="e#55338#55339#0" expanded="true" />
-            <element signature="e#55397#56913#0" expanded="true" />
-            <element signature="e#56902#56903#0" expanded="true" />
-            <element signature="e#56962#57171#0" expanded="true" />
-            <element signature="e#57160#57161#0" expanded="true" />
+            <element signature="e#9750#9817#0" expanded="false" />
+            <element signature="e#24348#24427#0" expanded="false" />
           </folding>
         </state>
       </provider>

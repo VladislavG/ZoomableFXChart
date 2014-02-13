@@ -16,6 +16,10 @@ import org.opendolphin.core.server.comm.ActionRegistry;
 import org.opendolphin.core.server.comm.CommandHandler;
 import solrTest.Item;
 import solrTest.SolrService;
+import static solrTest.ApplicationConstants.STATE;
+import static solrTest.ApplicationConstants.STARTDATE;
+import static solrTest.ApplicationConstants.ENDDATE;
+import static solrTest.ApplicationConstants.DISABLED;
 
 import java.util.*;
 
@@ -46,14 +50,14 @@ public class ApplicationAction extends DolphinServerAction{
             public void handleCommand(Command command, List<Command> response) {
 
                 SolrQuery solrQuery;
-                String startDate = getServerDolphin().findPresentationModelById("STATE").findAttributeByPropertyName("STARTDATE").getValue().toString();
-                String endDate = getServerDolphin().findPresentationModelById("STATE").findAttributeByPropertyName("ENDDATE").getValue().toString();
-                changeValue((ServerAttribute) getServerDolphin().findPresentationModelById("STATE").findAttributeByPropertyName("DISABLED"), true);
+                String startDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(STARTDATE).getValue().toString();
+                String endDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(ENDDATE).getValue().toString();
+                changeValue((ServerAttribute) getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED), true);
 
                 solrQuery = new SolrQuery("date:[" + startDate + " TO " + endDate + "]");
 
                 solrQuery.setStart(0);                          //startign index
-                solrQuery.setRows(64486);                          //number of rows
+                solrQuery.setRows(75320);                          //number of rows
                 List<Item> list = new ArrayList<Item>();
 
                 QueryResponse SolrResponse = null;          //make a response based on the above query
@@ -79,7 +83,7 @@ public class ApplicationAction extends DolphinServerAction{
                     movingAverages.add(median(neighbouringValues));
                 }
                     for (int i = 0; i < size; i++){
-                        int factorsToKeep = (int) Math.ceil(size / 600);
+                        int factorsToKeep = (int) Math.ceil(size / 700);
                         if (factorsToKeep == 0) factorsToKeep=1;
                         if (i% factorsToKeep == 0 && !(i==0) && !(results.get(size - i).getFieldValue("spike").equals("spike")) && results.get(size - i).getFieldValue("series").toString().equals("3")){
                             try{
@@ -146,7 +150,9 @@ public class ApplicationAction extends DolphinServerAction{
                             item.setLow(results.get(i).getFieldValue("low").toString());
                             item.setSpike("diffSpike");
                             list.add(item);
-                        }else if (datesUsed.contains(results.get(size - i).getFieldValue("date").toString())){
+                        }
+
+                        else if (datesUsed.contains(results.get(size - i).getFieldValue("date").toString())){
                             try{
                                 Item item = new Item();
                                 int d = 0;

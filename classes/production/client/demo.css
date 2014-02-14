@@ -4,6 +4,8 @@
 
 .label {
     -fx-text-fill: white;
+    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
+
 }
 
 .split-pane{
@@ -25,13 +27,38 @@
     -fx-text-fill: white;
 }
 
+.chart-series-line {
+    -fx-effect: dropshadow(two-pass-box, black, 1, 0, 0, 0);
+}
+
 .chart-line-symbol {
     -fx-background-insets: 0, 2;
     -fx-background-radius: 7px, 5px;
     -fx-padding          : 7px;
+    -fx-effect: dropshadow(two-pass-box, black, 2, 0, 0, 0);
 }
 .chart-line-symbol:hover {
-    /*-fx-effect: dropshadow(two-pass-box, white, 10, 0, 0, 0);*/
+    -fx-effect: dropshadow(two-pass-box, white, 10, 0, 0, 0);
+}
+
+.chart-bar {
+    -fx-scale-x: 0.5;
+}
+
+.chart-area-symbol {
+    -fx-background-color: null, null;
+}
+
+.button {
+    -fx-background-color:
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
 }
 
 .chart-pie{
@@ -41,6 +68,17 @@
     -fx-label-line-length: 0;
 }
 
+.b2 {
+    -fx-text-fill:white;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 12px;
+
+    -fx-background-color:
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a);
+    -fx-background-insets: 0,1;
+    -fx-background-radius: 9,8;
+}
 
 .axis {
     -fx-font-size: 1em;
@@ -49,6 +87,7 @@
     -fx-font-family: Tahoma;
     -fx-tick-length: 3;
     -fx-minor-tick-length: 0;
+    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
 }
 
 .separator {
@@ -66,6 +105,8 @@
 .list-cell {
     -fx-background-color: #474747;
     -fx-text-fill: white;
+    -fx-effect: dropshadow(two-pass-box, black, 2, 0, 0, 0);
+
 }
 
 .list-cell:filled:hover {
@@ -76,10 +117,13 @@
 .list-cell:filled:selected:focused, .list-cell:filled:selected {
 
     -fx-background-color: linear-gradient(#333 0%, #777 25%, #aaa 75%, #eee 100%);
+    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
+
 }
 
 .list-view{
     -fx-background-color: #474747;
+    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
 }
 
 .check-box{
@@ -89,4 +133,5 @@
 .stack-pane{
     -fx-background-color: transparent;
 }
+
 

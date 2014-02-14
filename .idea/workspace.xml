@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="listview with spikes&#10;">
+    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build.gradle.iws" />
@@ -71,7 +70,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="19" selection-start="4640" selection-end="4640" vertical-scroll-proportion="0.52307695" vertical-offset="1683" max-vertical-offset="25483">
+            <state line="115" column="77" selection-start="4490" selection-end="4490" vertical-scroll-proportion="0.41400304" vertical-offset="1683" max-vertical-offset="25483">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#9964#10031#0" expanded="false" />
@@ -1596,7 +1595,7 @@
       <workItem from="1392279243918" duration="20058000" />
       <workItem from="1392303282797" duration="4109000" />
       <workItem from="1392365351753" duration="12688000" />
-      <workItem from="1392391183409" duration="318000" />
+      <workItem from="1392391183409" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1650,18 +1649,22 @@
       <created>1392391338561</created>
       <updated>1392391338561</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="barChart&#10;">
+      <created>1392391521352</created>
+      <updated>1392391521352</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142028000" />
+    <option name="totallyTimeSpent" value="142359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27281648" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27281648" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1673,7 +1676,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19062833" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1741,7 +1744,10 @@
     <MESSAGE value="listview with spikes&#10;barChart&#10;" />
     <MESSAGE value="listview with spikes&#10;listview with spikes&#10;barChart&#10;" />
     <MESSAGE value="DeltaBarchart" />
-    <option name="LAST_COMMIT_MESSAGE" value="DeltaBarchart" />
+    <MESSAGE value="barChart&#10;" />
+    <MESSAGE value="solrTest directory commit" />
+    <MESSAGE value="listview with spikes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="listview with spikes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2044,7 +2050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="19" selection-start="4640" selection-end="4640" vertical-scroll-proportion="0.52307695" vertical-offset="1683" max-vertical-offset="25483">
+        <state line="115" column="77" selection-start="4490" selection-end="4490" vertical-scroll-proportion="0.41400304" vertical-offset="1683" max-vertical-offset="25483">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#9964#10031#0" expanded="false" />

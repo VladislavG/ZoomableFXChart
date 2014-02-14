@@ -45,6 +45,10 @@
     -fx-scale-x: 0.5;
 }
 
+.chart-area-symbol {
+    -fx-background-color: null, null;
+}
+
 .button {
     -fx-background-color:
         #090a0c,

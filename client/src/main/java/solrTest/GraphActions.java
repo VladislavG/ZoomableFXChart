@@ -6,6 +6,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -15,6 +16,7 @@ public class GraphActions {
     static void removePointsAtBack(XYChart.Series series, List pointsList, String lastPoint){
         Date currentDate = new Date();
         Date filterDate = new Date();
+        if (series.getData().size() == 0)return;
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
             currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) series.getData().get(0)).getXValue()));
@@ -51,6 +53,7 @@ public class GraphActions {
     static void addPointsAtBack(XYChart.Series series, List pointsList, String lastPoint){
         Date currentDate = new Date();
         Date filterDate = new Date();
+        if (pointsList.size() == 0)return;
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
             currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) pointsList.get(pointsList.size() - 1)).getXValue()));
@@ -88,6 +91,8 @@ public class GraphActions {
     static void removePointsAtFront(XYChart.Series series, List pointsList, String lastPoint){
         Date currentDate = new Date();
         Date filterDate = new Date();
+        if (series.getData().size() == 0)return;
+
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
             currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) series.getData().get(series.getData().size() - 1)).getXValue()));
@@ -122,6 +127,8 @@ public class GraphActions {
     static void addPointsAtFront(XYChart.Series series, List pointsList, String lastPoint){
         Date currentDate = new Date();
         Date filterDate = new Date();
+        if (pointsList.size() == 0)return;
+
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
             currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) series.getData().get(series.getData().size() - 1)).getXValue()));
@@ -132,7 +139,7 @@ public class GraphActions {
                 try {
                     filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(lastPoint);
                 } catch (ParseException e2) {
-                    e2.printStackTrace();
+                    System.out.println("7");
                 }
             }
         }
@@ -150,9 +157,38 @@ public class GraphActions {
                 try {
                     currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(frontData.getXValue()));
                 } catch (ParseException e2) {
-                    e2.printStackTrace();
+                    System.out.println("8");
                 }
             }
         }
+    }
+
+    public static String toUtcDate(String dateStr) {
+        HashMap<String, String> monthToMonth = new HashMap<String, String>();
+        monthToMonth.put("Jan", "01");
+        monthToMonth.put("Feb", "02");
+        monthToMonth.put("Mar", "03");
+        monthToMonth.put("Apr", "04");
+        monthToMonth.put("May", "05");
+        monthToMonth.put("Jun", "06");
+        monthToMonth.put("Jul", "07");
+        monthToMonth.put("Aug", "08");
+        monthToMonth.put("Sep", "09");
+        monthToMonth.put("Oct", "10");
+        monthToMonth.put("Nov", "11");
+        monthToMonth.put("Dec", "12");
+        String month = monthToMonth.get(dateStr.substring(4, 7));
+        String year = dateStr.substring(24);
+        String day = dateStr.substring(8, 10);
+        dateStr = year + "-" + month + "-" + day;
+        SimpleDateFormat out = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS");
+        String[] dateFormats = {"yyyy-MM-dd", "MMM dd, yyyy hh:mm:ss Z"};
+        for (String dateFormat : dateFormats) {
+            try {
+                return out.format(new SimpleDateFormat(dateFormat).parse(dateStr));
+            } catch (ParseException ignore) {
+            }
+        }
+        throw new IllegalArgumentException("Invalid date: " + dateStr);
     }
 }

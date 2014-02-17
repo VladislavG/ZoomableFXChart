@@ -83,7 +83,7 @@ public class ApplicationAction extends DolphinServerAction{
                     movingAverages.add(median(neighbouringValues));
                 }
                     for (int i = 0; i < size; i++){
-                        int factorsToKeep = (int) Math.ceil(size / 700);
+                        int factorsToKeep = (int) Math.ceil(size / 450);
                         if (factorsToKeep == 0) factorsToKeep=1;
                         if (i% factorsToKeep == 0 && !(i==0) && !(results.get(size - i).getFieldValue("spike").equals("spike")) && results.get(size - i).getFieldValue("series").toString().equals("3")){
                             try{

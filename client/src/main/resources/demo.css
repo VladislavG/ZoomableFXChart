@@ -31,6 +31,10 @@
     -fx-effect: dropshadow(two-pass-box, black, 1, 0, 0, 0);
 }
 
+.transparent {
+    -fx-background-color: transparent;
+}
+
 .chart-line-symbol {
     -fx-background-insets: 0, 2;
     -fx-background-radius: 7px, 5px;

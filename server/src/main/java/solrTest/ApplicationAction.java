@@ -52,7 +52,6 @@ public class ApplicationAction extends DolphinServerAction{
                 SolrQuery solrQuery;
                 String startDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(STARTDATE).getValue().toString();
                 String endDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(ENDDATE).getValue().toString();
-                changeValue((ServerAttribute) getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED), true);
 
                 solrQuery = new SolrQuery("date:[" + startDate + " TO " + endDate + "]");
 
@@ -83,7 +82,7 @@ public class ApplicationAction extends DolphinServerAction{
                     movingAverages.add(median(neighbouringValues));
                 }
                     for (int i = 0; i < size; i++){
-                        int factorsToKeep = (int) Math.ceil(size / 450);
+                        int factorsToKeep = (int) Math.ceil(size / 475);
                         if (factorsToKeep == 0) factorsToKeep=1;
                         if (i% factorsToKeep == 0 && !(i==0) && !(results.get(size - i).getFieldValue("spike").equals("spike")) && results.get(size - i).getFieldValue("series").toString().equals("3")){
                             try{
@@ -179,6 +178,7 @@ public class ApplicationAction extends DolphinServerAction{
                             }catch (Exception e){}
                         }
                     }
+                changeValue((ServerAttribute) getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED), false);
 //                solrServer.shutdown();
                 int f = 0;
                 for (Item item : list) {
@@ -187,6 +187,7 @@ public class ApplicationAction extends DolphinServerAction{
                     response.add(new DataCommand(itemMap));
                     f++;
                 }
+
             }
         });
     }

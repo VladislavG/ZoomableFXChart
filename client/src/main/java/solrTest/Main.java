@@ -10,6 +10,7 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.*;
 import javafx.scene.Group;
@@ -63,12 +64,15 @@ public class Main extends Application {
     XYChart.Series seriesHighRawNASDAQ = new XYChart.Series();
     XYChart.Series seriesDiffBar = new XYChart.Series();
     Double initYpos;
-
+    String dragArea;
+    ProgressBar progressBar;
+    SimpleDoubleProperty progress;
     int idFirstPoint;
     Double firstPointX;
     Double firstPointY;
     Text placeHolder;
     Label optionsLabel;
+    Timeline progressLine;
     int s;
     Button showHideButton = new Button("Hide providers");
     Button blinkButton = new Button("Blink providers");
@@ -128,6 +132,7 @@ public class Main extends Application {
     SimpleDoubleProperty trackXPosition = new SimpleDoubleProperty();
     SimpleDoubleProperty trackXTargetPosition = new SimpleDoubleProperty();
     SimpleDoubleProperty trackYPosition = new SimpleDoubleProperty();
+
     boolean onOff = true;
     boolean startStop = true;
     boolean onOffLock = true;
@@ -206,6 +211,9 @@ public class Main extends Application {
     SimpleDoubleProperty upperBoundForY;
     SimpleDoubleProperty lowerBoundForY;
 
+    SimpleDoubleProperty upperBoundForYMain;
+    SimpleDoubleProperty lowerBoundForYMain;
+
     AreaChart<LocalDateTime,Float> diffBarChart;
 
     Text miniMapDetail;
@@ -240,6 +248,40 @@ public class Main extends Application {
         Scene scene = new Scene(root, 1750, 850, Color.WHITESMOKE);
         initComponents();
         initializePresentationModels();
+
+        progressBar.setVisible(true);
+        progressBar.setMinHeight(20);
+        progressBar.setMaxHeight(20);
+        progressBar.setOpacity(0.6);
+        progressBar.setBorder(Border.EMPTY);
+        final KeyValue kv1 = new KeyValue(progress, 0.0);
+        final KeyValue kv2 = new KeyValue(progress, 0.5);
+        final KeyValue kv3 = new KeyValue(progress, 1.0);
+        final KeyFrame kf1 = new KeyFrame(Duration.millis(4000), kv1, kv2, kv3);
+        progressLine.getKeyFrames().add(kf1);
+        progressLine.setCycleCount(1);
+
+        progressLine.setOnFinished(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                progressBar.setVisible(false);
+            }
+        });
+        clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).addPropertyChangeListener(new PropertyChangeListener() {
+            @Override
+            public void propertyChange(PropertyChangeEvent evt) {
+                splitPane.setDisable((Boolean) evt.getNewValue());
+                if ((Boolean) evt.getNewValue()) {
+                    progressBar.setVisible(true);
+                    progress.set(0.0);
+                    progressLine.setRate(1);
+                    progressLine.playFromStart();
+                }else {
+                    progressLine.setRate(7);
+                }
+            }
+        });
+        clientDolphin.getClientModelStore().findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(true);
 
         clientDolphin.send("Query", new OnFinishedHandler() {
             @Override
@@ -335,15 +377,15 @@ public class Main extends Application {
                 System.out.println(seriesHighRawProviderThree.getData().size() + " prov3 size");
                 System.out.println(seriesHighRawProviderFour.getData().size() + " prov4 size");
                 listOfMarks.getItems().addAll(observableAboveAverages);
-                clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(false);
-                for (n = 0; n < valuesHighRaw.size()-1; n++){
+//                clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(false);
+                for (n = 0; n < valuesHighRaw.size() - 1; n++) {
                     Double biggestDiff = 0.0;
                     listOfPrices.clear();
                     listOfItems.forEach(new Consumer<Item>() {
                         @Override
                         public void accept(Item item) {
                             if (item.getDate().toString().equals(valuesHighRaw.get(n)))
-                            listOfPrices.add(Double.valueOf(item.getHigh()));
+                                listOfPrices.add(Double.valueOf(item.getHigh()));
                         }
                     });
 
@@ -355,14 +397,12 @@ public class Main extends Application {
                     maxDiff = maxNumber - minNumber;
 //                    if (n % Math.floor((n-10)/3) == 0 && maxDiff == 0){
 //                    }else{
-                        seriesDiffBar.getData().add(new XYChart.Data(LocalDateTime.parse(GraphActions.toUtcDate(valuesHighRaw.get(n)).substring(0, 19)), Float.valueOf(maxDiff.toString())));
+                    seriesDiffBar.getData().add(new XYChart.Data(LocalDateTime.parse(GraphActions.toUtcDate(valuesHighRaw.get(n)).substring(0, 19)), Float.valueOf(maxDiff.toString())));
 //                    }
                 }
                 System.out.println("");
             }
         });
-        System.out.println("Java Version             : " + com.sun.javafx.runtime.VersionInfo.getVersion());
-        System.out.println("Java getRuntimeVersion   : " + com.sun.javafx.runtime.VersionInfo.getRuntimeVersion());
         diffBarChart.setVerticalGridLinesVisible(false);
         diffBarChart.setHorizontalGridLinesVisible(false);
         diffBarChart.getXAxis().setTickMarkVisible(false);
@@ -384,12 +424,14 @@ public class Main extends Application {
                     if (mark instanceof StackPane) {
                         mark.setScaleX(0.0);
                         mark.setScaleY(0.0);
+                        mark.setManaged(false);
                         Bounds bounds = mark.getBoundsInParent();
                         double posX = bounds.getMinX() + (bounds.getMaxX() - bounds.getMinX()) / 2.0;
                         double posY = bounds.getMinY() + (bounds.getMaxY() - bounds.getMinY()) / 2.0;
                         Double number = Double.valueOf(getYAxis().getValueForDisplay(posY).toString());
                         LocalDateTime date = getXAxis().getValueForDisplay(posX).truncatedTo(DAYS);
                         if (aboveAverages.contains(date)) {
+                            mark.setManaged(true);
                             mark.setScaleX(.5);
                             mark.setScaleY(.5);
                             ImageView flag = new ImageView("flag.png");
@@ -493,6 +535,7 @@ public class Main extends Application {
                     if (mark instanceof StackPane) {
                         mark.setScaleX(0.0);
                         mark.setScaleY(0.0);
+                        mark.setManaged(false);
                         Bounds bounds = mark.getBoundsInParent();
                         double posX = bounds.getMinX() + (bounds.getMaxX() - bounds.getMinX()) / 2.0;
                         double posY = bounds.getMinY() + (bounds.getMaxY() - bounds.getMinY()) / 2.0;
@@ -501,6 +544,7 @@ public class Main extends Application {
                             Double number = (Double) getYAxis().getValueForDisplay(posY);
                             LocalDateTime date = getXAxis().getValueForDisplay(posX).truncatedTo(DAYS);
                             if (aboveAverages.contains(date)) {
+                                mark.setManaged(true);
                                 mark.setScaleX(.5);
                                 mark.setScaleY(.5);
                             }
@@ -579,7 +623,7 @@ public class Main extends Application {
         lineChartNASDAQ.setMinHeight(508);
         lineChartNASDAQ.setMaxHeight(508);
         lineChartNASDAQ.setFocusTraversable(true);
-        Rectangle rectangle = new Rectangle(0,0, 1360, 550);
+        Rectangle rectangle = new Rectangle(0,0, 1375, 550);
         lineChart.setClip(rectangle);
         lineChart.setVerticalGridLinesVisible(false);
 //        lineChart.setHorizontalGridLinesVisible(false);
@@ -588,14 +632,15 @@ public class Main extends Application {
         lineChart.getStyleClass().add("transparent");
         lineChartNASDAQ.setCreateSymbols(false);
         lineChartNASDAQ.setLegendVisible(false);
-        lineChartNASDAQ.getStyleClass().addAll(".chart-series-line");
+//        lineChartNASDAQ.getStyleClass().addAll(".chart-series-line");
+        lineChartOverview.getStyleClass().addAll("total");
         lineChartNASDAQ.setTranslateX(42);
 //        lockCB.setTranslateY(75);
 //        showHideThresh.setTranslateY(50);
 //        showHideButton.setTranslateY(25);
         miniMapPane.getChildren().addAll(lineChartOverview, leftRect, rightRect, hookRight, hookLeft, miniMapDetail);
         chartBox.getChildren().addAll(lineChartPane, separator, diffBarChart, separator2, miniMapPane);
-        containingPane.getChildren().addAll(chartBox, zoomBounds, trackX, displayAtPosition, displayAtTarget, detail, optionsPane);
+        containingPane.getChildren().addAll(chartBox, zoomBounds, trackX, displayAtPosition, displayAtTarget, detail, optionsPane, progressBar);
         simplePane.getChildren().addAll(listBox);
         optionsPane.getChildren().add(buttonControls);
         optionsPane.getStyleClass().add("b2");
@@ -603,6 +648,7 @@ public class Main extends Application {
         buttonControls.setSpacing(5);
         splitPane.getItems().addAll(containingPane, simplePane);
         splitPane.setMinWidth(scene.getWidth());
+
         root.getChildren().addAll(splitPane);
 
         stage.setTitle("Calculating Important Points");
@@ -619,6 +665,7 @@ public class Main extends Application {
         String startDate = (String.valueOf(stringFloatDatafirst.getXValue())).concat(":00Z");
         clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(STARTDATE).setValue(startDate);
         clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(ENDDATE).setValue(endDate);
+        clientDolphin.getClientModelStore().findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(true);
 
         clientDolphin.send("Query", new OnFinishedHandler() {
             @Override
@@ -709,7 +756,7 @@ public class Main extends Application {
                 xNAxis.setUpperBound((LocalDateTime) valueUpper.getXValue());
 
                 chartItemSize.setText("Chart item size: " + seriesHighRaw.getData().size());
-                clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(false);
+//                clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(false);
                 for (n = 0; n < valuesHighRaw.size() - 1; n++) {
                     Double biggestDiff = 0.0;
                     listOfPrices.clear();
@@ -741,6 +788,12 @@ public class Main extends Application {
 
         @Override
         public void handle(MouseEvent mouseEvent) {
+            if (mouseEvent.getSceneX() > 1390 || mouseEvent.getSceneX() < 55) {
+                trackX.setVisible(false);
+                displayAtPosition.setVisible(false);
+                return;
+            }
+
 
             if (mouseEvent.getEventType() == MouseEvent.MOUSE_PRESSED) {
                 zoomBounds.setX(mouseEvent.getX());
@@ -748,7 +801,7 @@ public class Main extends Application {
                 rectinitX.set(mouseEvent.getX());
                 rectinitY.set(0);
             } else if (mouseEvent.getEventType() == MouseEvent.MOUSE_DRAGGED) {
-                if (mouseEvent.getSceneX() > 1390) return;
+                if (mouseEvent.getSceneX() > 1390 || mouseEvent.getSceneX() < 55) return;
                 trackXTargetPosition.set(mouseEvent.getSceneX());
                 rectX.set(mouseEvent.getX());
                 rectY.set(lineChart.getHeight() + 20);
@@ -806,6 +859,22 @@ public class Main extends Application {
 
                     } catch (Exception e) {
                     }
+                    yNAxis.upperBoundProperty().unbind();
+                    yNAxis.lowerBoundProperty().unbind();
+                    yNAxis.setAutoRanging(true);
+
+                    yLineAxis.upperBoundProperty().unbind();
+                    yLineAxis.lowerBoundProperty().unbind();
+                    yLineAxis.setAutoRanging(true);
+                    XYChart.Data valueLower = (XYChart.Data) seriesHighRaw.getData().get(0);
+                    XYChart.Data valueUpper = (XYChart.Data) seriesHighRaw.getData().get(seriesHighRaw.getData().size() - 1);
+
+                    xNAxis.lowerBoundProperty().unbind();
+                    xNAxis.setLowerBound((LocalDateTime) valueLower.getXValue());
+
+                    xNAxis.upperBoundProperty().unbind();
+                    xNAxis.setUpperBound((LocalDateTime) valueUpper.getXValue());
+                    clientDolphin.getClientModelStore().findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(true);
 
                     clientDolphin.send("Query", new OnFinishedHandler() {
                         @Override
@@ -881,9 +950,6 @@ public class Main extends Application {
                                 }
 
                             }
-                            yNAxis.upperBoundProperty().unbind();
-                            yNAxis.lowerBoundProperty().unbind();
-                            yNAxis.setAutoRanging(true);
                             XYChart.Data valueLower = (XYChart.Data) seriesHighRaw.getData().get(0);
                             XYChart.Data valueUpper = (XYChart.Data) seriesHighRaw.getData().get(seriesHighRaw.getData().size() - 1);
 
@@ -892,8 +958,7 @@ public class Main extends Application {
 
                             xNAxis.upperBoundProperty().unbind();
                             xNAxis.setUpperBound((LocalDateTime) valueUpper.getXValue());
-
-                            clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(false);
+//                            clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).setValue(false);
                             for (n = 0; n < valuesHighRaw.size()-1; n++){
                                 Double biggestDiff = 0.0;
                                 listOfPrices.clear();
@@ -941,11 +1006,11 @@ public class Main extends Application {
 
                 rectX.set(0);
                 rectY.set(0);
-            } else if (mouseEvent.getEventType() == MouseEvent.MOUSE_MOVED) {
+            } else if (mouseEvent.getEventType() == MouseEvent.MOUSE_MOVED && mouseEvent.getSceneX()>55) {
                 trackX.setVisible(true);
                 trackXPosition.set(mouseEvent.getSceneX());
                 trackYPosition.set(mouseEvent.getSceneY());
-            } else if (mouseEvent.getEventType() == MouseEvent.MOUSE_EXITED) {
+            } else if (mouseEvent.getEventType() == MouseEvent.MOUSE_EXITED || mouseEvent.getSceneX()<55) {
                 trackX.setVisible(false);
                 displayAtPosition.setVisible(false);
                 displayAtTarget.setVisible(false);
@@ -969,6 +1034,7 @@ public class Main extends Application {
         lineChart.getData().add(seriesHighRaw);
         diffBarChart.getData().addAll(seriesDiffBar);
         lineChartNASDAQ.getData().add(seriesHighRawNASDAQ);
+
         lineChart.setMaxWidth(1390);
         lineChart.setMinWidth(1390);
         lineChart.setMaxHeight(550);
@@ -1003,12 +1069,6 @@ public class Main extends Application {
 
     private void addListeners() {
 
-        clientDolphin.findPresentationModelById(STATE).findAttributeByPropertyName(DISABLED).addPropertyChangeListener(new PropertyChangeListener() {
-            @Override
-            public void propertyChange(PropertyChangeEvent evt) {
-                splitPane.setDisable((Boolean) evt.getNewValue());
-            }
-        });
         optionsPane.setOnMouseEntered(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
@@ -1070,6 +1130,8 @@ public class Main extends Application {
         trackXPosition.addListener(new Listeners(this, lineChart, displayAtPosition));
 
         trackXTargetPosition.addListener(new XTargetChangeListener());
+
+        progressBar.progressProperty().bind(progress);
 
         hookLeft.setOnMouseDragged(new EventHandler<MouseEvent>() {
             @Override
@@ -1303,25 +1365,92 @@ public class Main extends Application {
                 yNAxis.lowerBoundProperty().bind(lowerBoundForY);
                 yNAxis.upperBoundProperty().bind(upperBoundForY);
                 initYpos = mouseEvent.getSceneY();
+                if (mouseEvent.getSceneY() > 326 ){
+                    dragArea="bottom";
+                }else if (mouseEvent.getSceneY() > 163){
+                    dragArea="middle";
+                }else{
+                    dragArea="top";
+                }
+            }
+        });
+
+        yLineAxis.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                yLineAxis.setAutoRanging(false);
+                lowerBoundForYMain.set(yLineAxis.getLowerBound());
+                upperBoundForYMain.set(yLineAxis.getUpperBound());
+                yLineAxis.lowerBoundProperty().bind(lowerBoundForYMain);
+                yLineAxis.upperBoundProperty().bind(upperBoundForYMain);
+                initYpos = mouseEvent.getSceneY();
+                if (mouseEvent.getSceneY() > 326 ){
+                    dragArea="bottom";
+                }else if (mouseEvent.getSceneY() > 163){
+                    dragArea="middle";
+                }else{
+                    dragArea="top";
+                }
             }
         });
 
         yNAxis.setOnMouseDragged(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
+                yNAxis.setAutoRanging(false);
+                double lowerBound = yNAxis.getLowerBound();
+                double upperBound = yNAxis.getUpperBound();
 
-                lowerBoundForY.set(yNAxis.getLowerBound() - 4*(initYpos - mouseEvent.getSceneY()));
-                upperBoundForY.set(yNAxis.getUpperBound() - 4*(initYpos - mouseEvent.getSceneY()));
-
+                double range = upperBound - lowerBound;
+                double dragStrength = range / 425;
+                switch (dragArea) {
+                    case "top":
+                        upperBoundForY.set(upperBound - dragStrength * (initYpos - mouseEvent.getSceneY()));
+                        break;
+                    case "middle":
+                        upperBoundForY.set(upperBound - dragStrength * (initYpos - mouseEvent.getSceneY()));
+                        lowerBoundForY.set(lowerBound - dragStrength * (initYpos - mouseEvent.getSceneY()));
+                        break;
+                    case "bottom":
+                        lowerBoundForY.set(lowerBound - dragStrength * (initYpos - mouseEvent.getSceneY()));
+                        break;
+                }
                 initYpos = mouseEvent.getSceneY();
+            mouseEvent.consume();
+            }
+        });
 
-                System.out.println(initYpos - mouseEvent.getSceneY());
+        yLineAxis.setOnMouseDragged(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                yLineAxis.setAutoRanging(false);
+                double lowerBound = yLineAxis.getLowerBound();
+                double upperBound = yLineAxis.getUpperBound();
+
+                double range = upperBound - lowerBound;
+                double dragStrength = range / 425;
+                switch (dragArea){
+                    case "top"    :
+                        upperBoundForYMain.set(upperBound - dragStrength*(initYpos - mouseEvent.getSceneY()));
+                        break;
+                    case "middle" :
+                        upperBoundForYMain.set(upperBound - dragStrength*(initYpos - mouseEvent.getSceneY()));
+                        lowerBoundForYMain.set(lowerBound - dragStrength*(initYpos - mouseEvent.getSceneY()));
+                        break;
+                    case "bottom" :
+                        lowerBoundForYMain.set(lowerBound - dragStrength*(initYpos - mouseEvent.getSceneY()));
+                        break;
+                }
+                initYpos = mouseEvent.getSceneY();
+                mouseEvent.consume();
+
             }
         });
 
         lockCB.selectedProperty().addListener(new ChangeListener<Boolean>() {
             @Override
             public void changed(ObservableValue<? extends Boolean> observableValue, Boolean aBoolean, Boolean aBoolean2) {
+
                 if (aBoolean){
                     lineChart.getYAxis().setAutoRanging(true);
                     lineChart.getXAxis().setAutoRanging(true);
@@ -1422,7 +1551,10 @@ public class Main extends Application {
             }
             yNAxis.upperBoundProperty().unbind();
             yNAxis.lowerBoundProperty().unbind();
+            yLineAxis.upperBoundProperty().unbind();
+            yLineAxis.lowerBoundProperty().unbind();
             yNAxis.setAutoRanging(true);
+            yLineAxis.setAutoRanging(true);
             XYChart.Data valueLower = (XYChart.Data) seriesHighRaw.getData().get(0);
             XYChart.Data valueUpper = (XYChart.Data) seriesHighRaw.getData().get(seriesHighRaw.getData().size() - 1);
 
@@ -1460,6 +1592,10 @@ public class Main extends Application {
             yNAxis.upperBoundProperty().unbind();
             yNAxis.lowerBoundProperty().unbind();
             yNAxis.setAutoRanging(true);
+
+            yLineAxis.upperBoundProperty().unbind();
+            yLineAxis.lowerBoundProperty().unbind();
+            yLineAxis.setAutoRanging(true);
 
             XYChart.Data valueLower = (XYChart.Data) seriesHighRaw.getData().get(0);
             XYChart.Data valueUpper = (XYChart.Data) seriesHighRaw.getData().get(seriesHighRaw.getData().size() - 1);
@@ -1557,7 +1693,7 @@ public class Main extends Application {
         displayAtTarget.setTranslateY(-10);
         displayAtTarget.setEffect(new InnerShadow(2, Color.ORANGE));
         displayAtTarget.setFont(Font.font(null, FontWeight.BOLD, 10));
-
+        progress = new SimpleDoubleProperty();
         trackX.setMouseTransparent(true);
         trackX.layoutXProperty().bind(trackXPosition);
         trackX.setStroke(Color.DODGERBLUE);
@@ -1587,7 +1723,7 @@ public class Main extends Application {
         seriesAverageHigh = new XYChart.Series();
         seriesAverageLow = new XYChart.Series();
         seriesOpenRaw = new XYChart.Series();
-
+        progressBar = new ProgressBar();
 
         dataRemovedFromFrontProv2 = new ArrayList<>();
         dataRemovedFromBackProv2 = new ArrayList<>();
@@ -1624,10 +1760,10 @@ public class Main extends Application {
             }
         };
 
-        yNAxis.setAutoRanging(false);
+//        yNAxis.setAutoRanging(false);
         xNAxis.setAutoRanging(false);
 
-        yNAxis.setTickMarkVisible(false);
+//        yNAxis.setTickMarkVisible(false);
 //        yNAxis.setTickLabelsVisible(false);
         yNAxis.setTickLabelGap(15);
         yNAxis.setForceZeroInRange(false);
@@ -1670,6 +1806,13 @@ public class Main extends Application {
 
         upperBoundForY = new SimpleDoubleProperty(2000);
         lowerBoundForY = new SimpleDoubleProperty(0);
+        progressBar.setMinWidth(1460);
+        progressBar.setMaxWidth(1460);
+
+        progressBar.setTranslateY(841);
+        progressBar.setTranslateX(-10);
+        upperBoundForYMain = new SimpleDoubleProperty(2000);
+        lowerBoundForYMain = new SimpleDoubleProperty(0);
 
         placeHolder = new Text();
         placeHolder.setFill(Color.WHITE);
@@ -1682,6 +1825,24 @@ public class Main extends Application {
         seriesList.add(seriesHighRawProviderTwo);
         seriesList.add(seriesHighRawProviderThree);
         seriesList.add(seriesHighRawProviderFour);
+        progressLine = new Timeline();
+        yLineAxis.setTickLabelFormatter(new NumberAxis.DefaultFormatter(yLineAxis) {
+            @Override
+            public String toString(Number object) {
+                String label;
+                label = "$" + object.longValue();
+                return label;
+            }
+        });
+
+        yNAxis.setTickLabelFormatter(new NumberAxis.DefaultFormatter(yNAxis){
+            @Override
+            public String toString(Number object){
+                String label;
+                label = "$" + object.intValue();
+                return label;
+            }
+        });
 
         dataRemovedFromFrontHighBound = new ArrayList<>();
         dataRemovedFromBackHighBound = new ArrayList<>();

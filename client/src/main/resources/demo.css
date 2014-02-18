@@ -94,9 +94,27 @@
     -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
 }
 
+.axis-tick-mark {
+    -fx-stroke:  linear-gradient(orangered, gold, dodgerblue);
+    -fx-stroke-width: 3;
+    -fx-effect: dropshadow(gaussian, white, 2, .5, 0, 0);
+}
+
 .separator {
     -fx-background-color: dodgerblue;
 
+}
+
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        -fx-accent 0%,
+        -fx-accent 49%,
+        derive(-fx-accent, 30%) 50%,
+        derive(-fx-accent, 30%) 99%
+    );
 }
 
 .separator *line{
@@ -137,5 +155,7 @@
 .stack-pane{
     -fx-background-color: transparent;
 }
+
+
 
 

@@ -131,7 +131,7 @@ public class GraphActions {
 
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
-            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) series.getData().get(series.getData().size() - 1)).getXValue()));
+            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>)pointsList.get(pointsList.size() - 1)).getXValue()));
         }catch (ParseException e){
             try {
                 filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(lastPoint);

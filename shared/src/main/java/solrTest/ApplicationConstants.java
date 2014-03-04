@@ -18,6 +18,7 @@ public class ApplicationConstants {
     public static final String SERIES = "series";
     public static final String DATEENTRY = "dateEntry";
     public static final String DISABLED = "disabled";
+    public static final String NEWFILE = "newFile";
 
 
     /**

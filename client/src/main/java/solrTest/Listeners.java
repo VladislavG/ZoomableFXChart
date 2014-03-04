@@ -21,7 +21,7 @@ class Listeners implements ChangeListener<Number> {
 
     @Override
     public void changed(ObservableValue<? extends Number> observableValue, Number oldXposition, Number newXPosition) {
-        String displayValueAtLocation = (String.valueOf(lineChart.getXAxis().getValueForDisplay((Double) newXPosition)));
+        String displayValueAtLocation = (String.valueOf(lineChart.getXAxis().getValueForDisplay((Double) newXPosition - 60)));
 
         displayAtPosition.setText(displayValueAtLocation.substring(0, 10));
         displayAtPosition.setVisible(true);

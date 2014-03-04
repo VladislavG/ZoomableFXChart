@@ -48,7 +48,6 @@ public class ApplicationAction extends DolphinServerAction{
     public void registerIn(ActionRegistry actionRegistry) {
         actionRegistry.register("Query", new CommandHandler<Command>() {
             public void handleCommand(Command command, List<Command> response) {
-
                 SolrQuery solrQuery;
                 String startDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(STARTDATE).getValue().toString();
                 String endDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(ENDDATE).getValue().toString();
@@ -61,7 +60,6 @@ public class ApplicationAction extends DolphinServerAction{
 
                 QueryResponse SolrResponse = null;          //make a response based on the above query
                 try {
-                    float start = System.currentTimeMillis();
                     SolrResponse = getSolrServer().query(solrQuery);
                     System.out.println("Solr took: " + SolrResponse.getQTime());
                 } catch (SolrServerException e) {
@@ -93,14 +91,11 @@ public class ApplicationAction extends DolphinServerAction{
                                 item.setId(results.get(i).getFieldValue("id").toString());
                                 item.setDate(results.get(size - i).getFieldValue("date").toString());
                                 datesUsed.add(results.get(size - i).getFieldValue("date").toString());
-                                try{
+
                                     float threshHold = movingAverages.get(size - i) / (Float) results.get(size - i).getFieldValue("high");
                                     item.setClose(String.valueOf(movingAverages.get(size - i) - (threshHold*6)));
                                     item.setOpen(String.valueOf(movingAverages.get(size - i) + (threshHold*6)));
-                                }catch (Exception e){
-                                    item.setClose("0");
-                                    item.setOpen("0");
-                                }
+
                                 item.setHigh(results.get(size - i).getFieldValue("high").toString());
                                 item.setAdj_close(results.get(i).getFieldValue("adj_close").toString());
                                 item.setSeries(results.get(size - i).getFieldValue("series").toString());
@@ -114,15 +109,12 @@ public class ApplicationAction extends DolphinServerAction{
                             item.setId(results.get(i).getFieldValue("id").toString());
                             item.setDate(results.get(size - i).getFieldValue("date").toString());
                             datesUsed.add(results.get(size - i).getFieldValue("date").toString());
-                            try{
+
 
                                 float threshHold = movingAverages.get(size - i) / (Float) results.get(size - i).getFieldValue("high");
                                 item.setClose(String.valueOf(movingAverages.get(size - i) - threshHold*6));
                                 item.setOpen(String.valueOf(movingAverages.get(size - i) + threshHold*6));
-                            }catch (Exception e){
-                                item.setClose("0");
-                                item.setOpen("0");
-                            }
+
                             item.setHigh(results.get(size - i).getFieldValue("high").toString());
                             item.setAdj_close(results.get(i).getFieldValue("adj_close").toString());
                             item.setSeries(results.get(size - i).getFieldValue("series").toString());
@@ -134,15 +126,7 @@ public class ApplicationAction extends DolphinServerAction{
                             item.setId(results.get(i).getFieldValue("id").toString());
                             item.setDate(results.get(size - i).getFieldValue("date").toString());
                             datesUsed.add(results.get(size - i).getFieldValue("date").toString());
-                            try{
 
-                                float threshHold = movingAverages.get(size - i) / (Float) results.get(size - i).getFieldValue("high");
-                                item.setClose(String.valueOf(movingAverages.get(size - i) - threshHold*6));
-                                item.setOpen(String.valueOf(movingAverages.get(size - i) + threshHold*6));
-                            }catch (Exception e){
-                                item.setClose("0");
-                                item.setOpen("0");
-                            }
                             item.setHigh(results.get(size - i).getFieldValue("high").toString());
                             item.setAdj_close(results.get(i).getFieldValue("adj_close").toString());
                             item.setSeries(results.get(size - i).getFieldValue("series").toString());

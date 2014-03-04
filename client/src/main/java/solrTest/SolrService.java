@@ -16,6 +16,19 @@ import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.util.NamedList;
 import org.apache.solr.core.CoreContainer;
+import org.opendolphin.core.comm.Command;
+import org.opendolphin.core.comm.DataCommand;
+import org.opendolphin.core.server.ServerAttribute;
+import org.opendolphin.core.server.action.DolphinServerAction;
+import org.opendolphin.core.server.comm.ActionRegistry;
+import solrTest.Item;
+import solrTest.SolrService;
+
+import static org.opendolphin.core.server.ServerDolphin.changeValue;
+import static solrTest.ApplicationConstants.STATE;
+import static solrTest.ApplicationConstants.STARTDATE;
+import static solrTest.ApplicationConstants.ENDDATE;
+import static solrTest.ApplicationConstants.DISABLED;
 
 
 public class SolrService {
@@ -45,11 +58,10 @@ public class SolrService {
         SolrService solrService = new SolrService();
         solrServer = solrService.getSolrServer();
 
-
         InputStream stream = SolrService.class.getClassLoader().getResourceAsStream("stocks.csv");
         InputStream stream2 = SolrService.class.getClassLoader().getResourceAsStream("stocks2.csv");
         InputStream stream3 = SolrService.class.getClassLoader().getResourceAsStream("stocks3.csv");
-        InputStream stream4 = SolrService.class.getClassLoader().getResourceAsStream("stocks4.csv");
+
         InputStream streamNDQ = SolrService.class.getClassLoader().getResourceAsStream("nasdaq.csv");
         ArrayList<RecordItem> allRecords = new ArrayList<RecordItem>();
 
@@ -152,32 +164,37 @@ public class SolrService {
             });
         } catch (Exception ex) {
             throw new RuntimeException(ex);
-        }   try {
-
-            final BufferedReader reader =
-                    new BufferedReader(new InputStreamReader(stream4));
-            reader.skip(42);
-            reader.lines().forEach(line -> {
-                final String[] dataItems = line.split(",");
-                int id = allRecords.size();
-                RecordItem item = new RecordItem();
-                item.setId(id);
-                item.setDate(dataItems[0] + "T00:00:00Z");
-                item.setOpen(Float.parseFloat(dataItems[1]));
-                item.setHigh(Float.parseFloat(dataItems[2]));
-                item.setLow(Float.parseFloat(dataItems[3]));
-                item.setClose(Float.parseFloat(dataItems[4]));
-                item.setSpike("normal");
-                item.setSeries(3);
-//                item.setVolume(Integer.parseInt(dataItems[5]));
-                item.setAdj_close(Float.parseFloat(dataItems[6]));
-
-                allRecords.add(item);
-
-            });
-        } catch (Exception ex) {
-            throw new RuntimeException(ex);
         }
+        if (!fileName.isEmpty()){
+            InputStream stream4 = SolrService.class.getClassLoader().getResourceAsStream(fileName);
+            try {
+
+                final BufferedReader reader =
+                        new BufferedReader(new InputStreamReader(stream4));
+                reader.skip(42);
+                reader.lines().forEach(line -> {
+                    final String[] dataItems = line.split(",");
+                    int id = allRecords.size();
+                    RecordItem item = new RecordItem();
+                    item.setId(id);
+                    item.setDate(dataItems[0] + "T00:00:00Z");
+                    item.setOpen(Float.parseFloat(dataItems[1]));
+                    item.setHigh(Float.parseFloat(dataItems[2]));
+                    item.setLow(Float.parseFloat(dataItems[3]));
+                    item.setClose(Float.parseFloat(dataItems[4]));
+                    item.setSpike("normal");
+                    item.setSeries(3);
+//                item.setVolume(Integer.parseInt(dataItems[5]));
+                    item.setAdj_close(Float.parseFloat(dataItems[6]));
+
+                    allRecords.add(item);
+
+                });
+            } catch (Exception ex) {
+                throw new RuntimeException(ex);
+            }
+        }
+
         for (RecordItem record : allRecords) {
             solrServer.addBean(record);
         }

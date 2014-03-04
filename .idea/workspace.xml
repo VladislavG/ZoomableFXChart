@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="removed bounds">
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h_1.del" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1h_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\_1i_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vladislav\jumpstart-gradle\client\src\main\resources\solr\core\data\index\segments_2c" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" afterPath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java" afterPath="$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/Delta.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/Delta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___javax_servlet_servlet_api_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___log4j_log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_commons_commons_math3_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_codecs_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_lucene_lucene_core_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_core_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_apache_solr_solr_solrj_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_jfree_jfreechart_1_0_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="removed bounds" />
     <ignored path="build.gradle.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1882,7 +1837,7 @@
       <workItem from="1393860876248" duration="1111000" />
       <workItem from="1393920947662" duration="7925000" />
       <workItem from="1393940922221" duration="563000" />
-      <workItem from="1393942301402" duration="2998000" />
+      <workItem from="1393942301402" duration="3368000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1952,7 +1907,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216087000" />
+    <option name="totallyTimeSpent" value="216457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />

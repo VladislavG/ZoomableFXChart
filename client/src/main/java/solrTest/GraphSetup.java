@@ -1,5 +1,8 @@
 package solrTest;
 
+import com.sun.javafx.charts.Legend;
+import javafx.geometry.Side;
+import javafx.scene.Node;
 import javafx.scene.shape.Rectangle;
 
 /**
@@ -61,8 +64,8 @@ public class GraphSetup {
         main.lineChartPane.getChildren().addAll(main.lineChartNASDAQ, main.lineChart, main.lineIndicator);
         main.lineChartNASDAQ.setMinWidth(1390);
         main.lineChartNASDAQ.setMaxWidth(1390);
-        main.lineChartNASDAQ.setMinHeight(508);
-        main.lineChartNASDAQ.setMaxHeight(508);
+        main.lineChartNASDAQ.setMinHeight(537);
+        main.lineChartNASDAQ.setMaxHeight(537);
         main.lineChartNASDAQ.setFocusTraversable(true);
         Rectangle rectangle = new Rectangle(0,0, 1375, 550);
         main.lineChart.setClip(rectangle);
@@ -71,7 +74,13 @@ public class GraphSetup {
         main.lineChartNASDAQ.setHorizontalGridLinesVisible(false);
         main.lineChart.getStyleClass().add("transparent");
         main.lineChartNASDAQ.setCreateSymbols(false);
-        main.lineChartNASDAQ.setLegendVisible(false);
+//        main.lineChartNASDAQ.setLegendVisible(false);
+        for (Node legend : main.lineChartNASDAQ.getChildrenUnmodifiable()){
+            if (legend instanceof Legend){
+                legend.setTranslateX(200);
+                legend.setTranslateY(12);
+            }
+        }
         main.lineChartOverview.getStyleClass().addAll("total");
         main.lineChartNASDAQ.setTranslateX(42);
     }

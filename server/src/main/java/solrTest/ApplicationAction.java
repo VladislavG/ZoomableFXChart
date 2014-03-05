@@ -21,6 +21,7 @@ import static solrTest.ApplicationConstants.STARTDATE;
 import static solrTest.ApplicationConstants.ENDDATE;
 import static solrTest.ApplicationConstants.DISABLED;
 
+import java.lang.reflect.Field;
 import java.util.*;
 
 public class ApplicationAction extends DolphinServerAction{
@@ -40,14 +41,24 @@ public class ApplicationAction extends DolphinServerAction{
             CoreContainer coreContainer = new CoreContainer(solrHome);
             coreContainer.load();
             solrServer = new EmbeddedSolrServer(coreContainer, CORE_NAME);
+
         }
 
         return solrServer;
     }
 
+
+
     public void registerIn(ActionRegistry actionRegistry) {
         actionRegistry.register("Query", new CommandHandler<Command>() {
             public void handleCommand(Command command, List<Command> response) {
+                SolrService solrService = new SolrService();
+                try {
+                    solrServer = getSolrServer();
+                } catch (SolrServerException e) {
+                    e.printStackTrace();
+                }
+
                 SolrQuery solrQuery;
                 String startDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(STARTDATE).getValue().toString();
                 String endDate = getServerDolphin().findPresentationModelById(STATE).findAttributeByPropertyName(ENDDATE).getValue().toString();
@@ -60,11 +71,12 @@ public class ApplicationAction extends DolphinServerAction{
 
                 QueryResponse SolrResponse = null;          //make a response based on the above query
                 try {
-                    SolrResponse = getSolrServer().query(solrQuery);
+                    SolrResponse = solrServer.query(solrQuery);
                     System.out.println("Solr took: " + SolrResponse.getQTime());
                 } catch (SolrServerException e) {
                     e.printStackTrace();
                 }
+
                 ArrayList<Float> movingAverages = new ArrayList<Float>();
                 SolrDocumentList results = SolrResponse.getResults();
                 int size = results.size()- 1;
@@ -171,7 +183,7 @@ public class ApplicationAction extends DolphinServerAction{
                     response.add(new DataCommand(itemMap));
                     f++;
                 }
-
+//                solrServer.shutdown();
             }
         });
     }

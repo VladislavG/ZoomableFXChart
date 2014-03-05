@@ -1,34 +1,34 @@
 .root {
-    -fx-background-color: #474747;
+    /*-fx-background-color: #474747;*/
 }
 
 .label {
-    -fx-text-fill: white;
-    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
+    /*-fx-text-fill: white;*/
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 
 }
 
-.split-pane{
-    -fx-background-color: #474747;
-}
+/*.split-pane{*/
+    /*-fx-background-color: #474747;*/
+/*}*/
 
-.chart {
-    -fx-background-color: #474747;
-}
+/*.chart {*/
+    /*-fx-background-color: #474747;*/
+/*}*/
 
-.chart-legend{
-    -fx-background-color: #474747;
-    -fx-text-fill: #474747;
-    -fx-fill: #474747;
-}
+/*.chart-legend{*/
+    /*-fx-background-color: #474747;*/
+    /*-fx-text-fill: #474747;*/
+    /*-fx-fill: #474747;*/
+/*}*/
 
 .chart-title {
     -fx-font-size: 1.4em;
-    -fx-text-fill: white;
+    /*-fx-text-fill: white;*/
 }
 
 .chart-series-line {
-    -fx-effect: dropshadow(two-pass-box, black, 1, 0, 0, 0);
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 }
 
 .transparent {
@@ -39,10 +39,10 @@
     -fx-background-insets: 0, 2;
     -fx-background-radius: 7px, 5px;
     -fx-padding          : 7px;
-    -fx-effect: dropshadow(two-pass-box, black, 2, 0, 0, 0);
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 }
 .chart-line-symbol:hover {
-    -fx-effect: dropshadow(two-pass-box, white, 10, 0, 0, 0);
+    -fx-effect: dropshadow(two-pass-box, black, 10, 0, 0, 0);
 }
 
 .chart-bar {
@@ -55,13 +55,12 @@
 
 .button {
     -fx-background-color:
-        #090a0c,
-        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
-        linear-gradient(#20262b, #191d22),
-        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
-    -fx-background-radius: 5,4,3,5;
-    -fx-background-insets: 0,1,2,0;
-    -fx-text-fill: white;
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
 }
 
@@ -73,13 +72,14 @@
 }
 
 .b2 {
-    -fx-text-fill:white;
+    /*-fx-text-fill:white;*/
     -fx-font-family: Tahoma;
     -fx-font-size: 12px;
 
     -fx-background-color:
-        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
-        linear-gradient(#020b02, #3a3a3a);
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
     -fx-background-insets: 0,1;
     -fx-background-radius: 9,8;
 }
@@ -87,11 +87,11 @@
 .axis {
     -fx-font-size: 1em;
 
-    -fx-tick-label-fill: white;
+    /*-fx-tick-label-fill: white;*/
     -fx-font-family: Tahoma;
     -fx-tick-length: 3;
     -fx-minor-tick-length: 0;
-    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 }
 
 .axis-tick-mark {
@@ -125,37 +125,41 @@
 }
 
 .list-cell {
-    -fx-background-color: #474747;
-    -fx-text-fill: white;
-    -fx-effect: dropshadow(two-pass-box, black, 2, 0, 0, 0);
+    /*-fx-background-color: #474747;*/
+    /*-fx-text-fill: white;*/
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 
 }
 
-.list-cell:filled:hover {
-    -fx-background-color: white;
-    -fx-text-fill: black;
-}
+/*.list-cell:filled:hover {*/
+    /*-fx-background-color: white;*/
+    /*-fx-text-fill: black;*/
+/*}*/
 
 .list-cell:filled:selected:focused, .list-cell:filled:selected {
 
-    -fx-background-color: linear-gradient(#333 0%, #777 25%, #aaa 75%, #eee 100%);
-    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
+    /*-fx-background-color: linear-gradient(#333 0%, #777 25%, #aaa 75%, #eee 100%);*/
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 
 }
 
 .list-view{
-    -fx-background-color: #474747;
-    -fx-effect: dropshadow(two-pass-box, black, 5, 0, 0, 0);
+    /*-fx-background-color: #474747;*/
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
 }
 
-.check-box{
-    -fx-text-fill: white;
-}
+/*.check-box{*/
+    /*-fx-text-fill: white;*/
+/*}*/
 
-.stack-pane{
-    -fx-background-color: transparent;
-}
+/*.stack-pane{*/
+    /*-fx-background-color: transparent;*/
+/*}*/
 
+
+.line {
+    -fx-effect: dropshadow(two-pass-box, white, 1, 0, 0, 0);
+}
 
 
 

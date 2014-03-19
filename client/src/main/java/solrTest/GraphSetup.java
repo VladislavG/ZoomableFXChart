@@ -18,6 +18,12 @@ public class GraphSetup {
         main.lineChart.getData().add(main.seriesHighRawProviderTwo);
         main.lineChart.getData().add(main.seriesHighRawProviderThree);
         main.lineChart.getData().add(main.seriesHighRawProviderFour);
+        main.lineChart.getData().add(main.seriesAverageHigh);
+        main.lineChart.getData().add(main.seriesAverageLow);
+        main.seriesAverageHigh.getNode().setVisible(false);
+        main.seriesAverageHigh.getNode().setManaged(false);
+        main.seriesAverageLow.getNode().setVisible(false);
+        main.seriesAverageLow.getNode().setManaged(false);
         main.lineChart.getData().add(main.seriesHighRaw);
         main.diffBarChart.getData().addAll(main.seriesDiffBar);
         main.lineChartNASDAQ.getData().add(main.seriesHighRawNASDAQ);
@@ -77,7 +83,7 @@ public class GraphSetup {
 //        main.lineChartNASDAQ.setLegendVisible(false);
         for (Node legend : main.lineChartNASDAQ.getChildrenUnmodifiable()){
             if (legend instanceof Legend){
-                legend.setTranslateX(200);
+                legend.setTranslateX(370);
                 legend.setTranslateY(12);
             }
         }

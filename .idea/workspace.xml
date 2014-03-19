@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="removed bounds">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" afterPath="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
+    <list default="true" id="9639ca2b-2d62-40cc-bd0c-fbda621446d6" name="Default" comment="listView working&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p.fdt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p.fdx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p.nvd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p.nvm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p_1.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p_Lucene41_0.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p_Lucene41_0.tim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p_Lucene41_0.tip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q.fdt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q.fdx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q.nvd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q.nvm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q_Lucene41_0.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q_Lucene41_0.tim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q_Lucene41_0.tip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/segments_2m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1p.fnm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/resources/solr/core/data/index/_1q.fnm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___com_spatial4j_spatial4j_0_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_collections_commons_collections_3_2_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___commons_logging_commons_logging_1_1_3.xml" />
@@ -18,9 +36,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_open_dolphin_dolphin_combined_0_7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_2_1_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__unresolved_dependency___org_restlet_jee_org_restlet_ext_servlet_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/demo.css" afterPath="$PROJECT_DIR$/client/src/main/resources/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" afterPath="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build.gradle.iws" />
@@ -89,65 +109,37 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1510" column="91" selection-start="72587" selection-end="72587" vertical-scroll-proportion="0.13852814" vertical-offset="23823" max-vertical-offset="26724">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7952#7963#0" expanded="true" />
-                <element signature="e#27112#27301#0" expanded="true" />
-                <element signature="e#27290#27291#0" expanded="true" />
-                <element signature="e#44892#45076#0" expanded="true" />
-                <element signature="e#45065#45066#0" expanded="true" />
-                <element signature="e#49790#50127#0" expanded="true" />
-                <element signature="e#50116#50117#0" expanded="true" />
-                <element signature="e#50206#50762#0" expanded="true" />
-                <element signature="e#50751#50752#0" expanded="true" />
-                <element signature="e#58588#59115#0" expanded="true" />
-                <element signature="e#59104#59105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumberAxis.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/chart/NumberAxis.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1479">
+            <state line="1461" column="23" selection-start="70516" selection-end="70516" vertical-scroll-proportion="-0.52962965" vertical-offset="24147" max-vertical-offset="25007">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Axis.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/chart/Axis.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="19" selection-start="6045" selection-end="6045" vertical-scroll-proportion="0.0" vertical-offset="2190" max-vertical-offset="3553">
+      <file leaf-file-name="stocks3.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks3.csv">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
+      <file leaf-file-name="GraphActions.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="49" selection-start="1786" selection-end="1786" vertical-scroll-proportion="-18.32" vertical-offset="919" max-vertical-offset="2907">
+            <state line="149" column="78" selection-start="6638" selection-end="6638" vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3468">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateAxis310.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/DateAxis310.java">
+      <file leaf-file-name="GraphSetup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="482" column="0" selection-start="20669" selection-end="20669" vertical-scroll-proportion="0.0" vertical-offset="7318" max-vertical-offset="8041">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="8602">
+            <state line="86" column="38" selection-start="4348" selection-end="4348" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -156,45 +148,34 @@
       <file leaf-file-name="ApplicationAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="73" selection-start="8616" selection-end="8616" vertical-scroll-proportion="0.0" vertical-offset="2169" max-vertical-offset="3468">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1880#10644#0" expanded="true" />
-                <element signature="e#2871#2877#0" expanded="true" />
-                <element signature="e#3325#3332#0" expanded="true" />
-                <element signature="e#3637#3644#0" expanded="true" />
-                <element signature="e#10633#10634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerConnector.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/comm/ServerConnector.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="969">
+            <state line="110" column="153" selection-start="5551" selection-end="5551" vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="3468">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolrServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.solr/solr-solrj/4.5.1/source/bade872ee834ea20128704bba87a3900ce6dc617/solr-solrj-4.5.1-sources.jar!/org/apache/solr/client/solrj/SolrServer.java">
+      <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="22" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="4789" max-vertical-offset="5525">
-              <folding>
-                <element signature="e#0#14078#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3504#3523#0" expanded="false" />
-              </folding>
+            <state line="95" column="0" selection-start="2069" selection-end="2235" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2907">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/List.java">
+      <file leaf-file-name="DateAxis310.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/DateAxis310.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="55" selection-start="7111" selection-end="7114" vertical-scroll-proportion="-9.48" vertical-offset="2449" max-vertical-offset="11424">
+            <state line="482" column="0" selection-start="20669" selection-end="20669" vertical-scroll-proportion="0.0" vertical-offset="8194" max-vertical-offset="8381">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="249" column="80" selection-start="10917" selection-end="10917" vertical-scroll-proportion="0.0" vertical-offset="4233" max-vertical-offset="9605">
               <folding />
             </state>
           </provider>
@@ -212,7 +193,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="bcb6161" />
       </map>
     </option>
   </component>
@@ -1064,12 +1045,13 @@
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Delta.java" />
         <option value="$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/solrTest/SolrService.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/demo.css" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/DateAxis310.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/solrTest/Main.java" />
       </list>
     </option>
@@ -1078,7 +1060,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1128,8 +1110,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1454,6 +1434,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1475,7 +1457,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value="&#10;ma&#10;date&#10;{" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -1920,7 +1902,24 @@
       <workItem from="1393940922221" duration="563000" />
       <workItem from="1393942301402" duration="3458000" />
       <workItem from="1394011077001" duration="41000" />
-      <workItem from="1394011278469" duration="10328000" />
+      <workItem from="1394011278469" duration="10372000" />
+      <workItem from="1394034662961" duration="13000" />
+      <workItem from="1394034891659" duration="276000" />
+      <workItem from="1394093267848" duration="18249000" />
+      <workItem from="1394118830376" duration="132000" />
+      <workItem from="1394208174890" duration="271000" />
+      <workItem from="1394272128436" duration="2066000" />
+      <workItem from="1394439029123" duration="138000" />
+      <workItem from="1394712886165" duration="799000" />
+      <workItem from="1394799181393" duration="185000" />
+      <workItem from="1395058845343" duration="2148000" />
+      <workItem from="1395070426350" duration="1586000" />
+      <workItem from="1395129981843" duration="1653000" />
+      <workItem from="1395143752431" duration="7000" />
+      <workItem from="1395143770158" duration="314000" />
+      <workItem from="1395145805215" duration="1408000" />
+      <workItem from="1395152584435" duration="1196000" />
+      <workItem from="1395230893699" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1391613048486</created>
@@ -1986,30 +1985,34 @@
       <created>1392739347232</created>
       <updated>1392739347232</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="listView working">
+      <created>1394025330280</created>
+      <updated>1394025330280</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226916000" />
+    <option name="totallyTimeSpent" value="257765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26987243" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.65628475" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3650638" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2875368" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27379784" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19062833" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2017,7 +2020,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2113951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25220805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25695217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2027,14 +2030,14 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26987243" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27379784" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27379784" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20553781" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2113951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25220805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2049,8 +2052,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19062833" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -2083,7 +2086,9 @@
     <MESSAGE value="Normalised graph" />
     <MESSAGE value="Graph manipulation&#10;" />
     <MESSAGE value="removed bounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed bounds" />
+    <MESSAGE value="listView working" />
+    <MESSAGE value="listView working&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="listView working&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2097,31 +2102,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks3.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="3468">
+        <state line="149" column="78" selection-start="6638" selection-end="6638" vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3468">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/ServerDolphin.groovy">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="16" selection-start="4217" selection-end="4217" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="2261">
+        <state line="85" column="40" selection-start="4307" selection-end="4307" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="101" selection-start="3131" selection-end="3131" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="3502">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1880#10644#0" expanded="true" />
-            <element signature="e#2871#2877#0" expanded="true" />
-            <element signature="e#3325#3332#0" expanded="true" />
-            <element signature="e#3637#3644#0" expanded="true" />
-            <element signature="e#10633#10634#0" expanded="true" />
-          </folding>
+        <state line="81" column="49" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/DateAxis310.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="482" column="0" selection-start="20669" selection-end="20669" vertical-scroll-proportion="0.0" vertical-offset="7664" max-vertical-offset="8381">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="29" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="9571">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2196,27 +2218,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/ubsstocks.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="57290" />
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks3.csv">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/nasdaq.csv">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184586" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/src/main/java/solrTest/package.html">
@@ -2281,9 +2295,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Delta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="32" column="4" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/src/main/java/solrTest/ApplicationConstants.java">
@@ -2295,16 +2307,12 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/ServerDolphin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="16" selection-start="4217" selection-end="4217" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="1836">
-          <folding />
-        </state>
+        <state line="107" column="16" selection-start="4217" selection-end="4217" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="1836" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-client/0.7/source/269e64da44c5cb5eefec98f4cb854da9927f446c/dolphin-client-0.7-sources.jar!/org/opendolphin/core/client/comm/ClientConnector.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="5099" selection-end="5099" vertical-scroll-proportion="0.0" vertical-offset="1437" max-vertical-offset="4913">
-          <folding />
-        </state>
+        <state line="127" column="0" selection-start="5099" selection-end="5099" vertical-scroll-proportion="0.0" vertical-offset="1437" max-vertical-offset="4913" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/action/DolphinServerAction.groovy">
@@ -2333,56 +2341,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Listeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="122" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="3349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="55" selection-start="7111" selection-end="7114" vertical-scroll-proportion="-9.48" vertical-offset="2449" max-vertical-offset="11424">
-          <folding />
-        </state>
+        <state line="23" column="122" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.solr/solr-solrj/4.5.1/source/bade872ee834ea20128704bba87a3900ce6dc617/solr-solrj-4.5.1-sources.jar!/org/apache/solr/client/solrj/SolrServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="4789" max-vertical-offset="5525">
-          <folding>
-            <element signature="e#0#14078#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3504#3523#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="42" column="22" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="4789" max-vertical-offset="5525" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.open-dolphin/dolphin-server/0.7/source/b07d35d82374f703b3fedf990620690e8deed886/dolphin-server-0.7-sources.jar!/org/opendolphin/core/server/comm/ServerConnector.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="969">
+        <state line="59" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/stocks3.csv">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274074">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="8602">
+        <state line="110" column="153" selection-start="5551" selection-end="5551" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="3060">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="39" selection-start="3988" selection-end="3988" vertical-scroll-proportion="-20.36" vertical-offset="851" max-vertical-offset="1581">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="95" column="0" selection-start="2069" selection-end="2235" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2907">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2393,58 +2385,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/solrTest/ApplicationAction.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/SolrService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="73" selection-start="8616" selection-end="8616" vertical-scroll-proportion="0.0" vertical-offset="2169" max-vertical-offset="3468">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1880#10644#0" expanded="true" />
-            <element signature="e#2871#2877#0" expanded="true" />
-            <element signature="e#3325#3332#0" expanded="true" />
-            <element signature="e#3637#3644#0" expanded="true" />
-            <element signature="e#10633#10634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/chart/Axis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="19" selection-start="6045" selection-end="6045" vertical-scroll-proportion="0.0" vertical-offset="2190" max-vertical-offset="3553">
+        <state line="249" column="80" selection-start="10917" selection-end="10917" vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="8636">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0/jre/lib/ext/jfxrt.jar!/javafx/scene/chart/NumberAxis.class">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+        <state line="149" column="78" selection-start="6638" selection-end="6638" vertical-scroll-proportion="0.0" vertical-offset="2351" max-vertical-offset="3468">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/demo.css">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/GraphSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="49" selection-start="1786" selection-end="1786" vertical-scroll-proportion="-18.32" vertical-offset="919" max-vertical-offset="2907">
+        <state line="86" column="38" selection-start="4348" selection-end="4348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/solrTest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1510" column="91" selection-start="72587" selection-end="72587" vertical-scroll-proportion="0.13852814" vertical-offset="23823" max-vertical-offset="26724">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7952#7963#0" expanded="true" />
-            <element signature="e#27112#27301#0" expanded="true" />
-            <element signature="e#27290#27291#0" expanded="true" />
-            <element signature="e#44892#45076#0" expanded="true" />
-            <element signature="e#45065#45066#0" expanded="true" />
-            <element signature="e#49790#50127#0" expanded="true" />
-            <element signature="e#50116#50117#0" expanded="true" />
-            <element signature="e#50206#50762#0" expanded="true" />
-            <element signature="e#50751#50752#0" expanded="true" />
-            <element signature="e#58588#59115#0" expanded="true" />
-            <element signature="e#59104#59105#0" expanded="true" />
-          </folding>
+        <state line="1461" column="23" selection-start="70516" selection-end="70516" vertical-scroll-proportion="-0.52962965" vertical-offset="24147" max-vertical-offset="25007">
+          <folding />
         </state>
       </provider>
     </entry>

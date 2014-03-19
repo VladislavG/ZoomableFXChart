@@ -220,6 +220,7 @@ public class SolrService {
 
             float diffBetweenValAndMedian = median(neighbouringValues) / Float.valueOf(document.getFieldValue("high").toString());
             movingAverages.add(median(neighbouringValues));
+
             RecordItem item = new RecordItem();
             item.setId(Integer.valueOf(document.getFieldValue("id").toString()));
             item.setDate(String.valueOf(toUtcDate(String.valueOf(document.getFieldValue("date")))).concat("Z"));
@@ -230,6 +231,7 @@ public class SolrService {
 //                item.setVolume(Integer.parseInt(dataItems[5]));
             item.setSeries(Integer.parseInt(String.valueOf(document.getFieldValue("series"))));
             item.setAdj_close(Float.parseFloat(String.valueOf(document.getFieldValue("adj_close"))));
+
             if (Math.abs(diffBetweenValAndMedian) > 1.05 || Math.abs(diffBetweenValAndMedian) < .97){
                 switch (Integer.parseInt(String.valueOf(document.getFieldValue("series")))){
                     case 0: item.setSpike("spike");

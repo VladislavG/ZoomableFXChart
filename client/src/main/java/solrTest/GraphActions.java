@@ -19,7 +19,7 @@ public class GraphActions {
         if (series.getData().size() < 3)return;
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
-            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) series.getData().get(0)).getXValue()));
+            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Number>) series.getData().get(0)).getXValue()));
         }catch (ParseException e){
             try {
                 filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(lastPoint);
@@ -35,10 +35,10 @@ public class GraphActions {
         while (filterDate.getTime() > currentDate.getTime()) {
             if (series.getData().size() < 3)return;
 
-            XYChart.Data<LocalDateTime, Float> data = (XYChart.Data<LocalDateTime, Float>) series.getData().get(0);
+            XYChart.Data<LocalDateTime, Number> data = (XYChart.Data<LocalDateTime, Number>) series.getData().get(0);
             pointsList.add(data);
 
-            series.getData().remove(0);
+            series.getData().remove(data);
             try {
                 currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(String.valueOf(data.getXValue()));
             } catch (ParseException e1) {
@@ -57,7 +57,7 @@ public class GraphActions {
         if (pointsList.size() == 0)return;
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
-            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) pointsList.get(pointsList.size() - 1)).getXValue()));
+            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Number>) pointsList.get(pointsList.size() - 1)).getXValue()));
         }catch (ParseException e){
             try {
                 filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(lastPoint);
@@ -70,11 +70,11 @@ public class GraphActions {
             }
         }
         while (filterDate.getTime() < currentDate.getTime()) {
-
-            XYChart.Data<LocalDateTime, Float> backData = (XYChart.Data< LocalDateTime, Float>) pointsList.get(pointsList.size() - 1);
+            if (pointsList.size() == 0)return;
+            XYChart.Data<LocalDateTime, Number> backData = (XYChart.Data< LocalDateTime, Number>) pointsList.get(pointsList.size() - 1);
             pointsList.remove(backData);
             String dateBack = String.valueOf(backData.getXValue());
-            Float valueBack = backData.getYValue();
+            Number valueBack = backData.getYValue();
 
             XYChart.Data element = new XYChart.Data(backData.getXValue(), valueBack);
             series.getData().add(0, element);
@@ -97,7 +97,7 @@ public class GraphActions {
 
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
-            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>) series.getData().get(series.getData().size() - 1)).getXValue()));
+            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Number>) series.getData().get(series.getData().size() - 1)).getXValue()));
         }catch (ParseException e){
             try {
                 filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(lastPoint);
@@ -113,7 +113,7 @@ public class GraphActions {
         while (filterDate.getTime() < currentDate.getTime()) {
             if (series.getData().size() < 3)return;
 
-            XYChart.Data<LocalDateTime, Float> data = (XYChart.Data<LocalDateTime, Float>) series.getData().get(series.getData().size() - 1);
+            XYChart.Data<LocalDateTime, Number> data = (XYChart.Data<LocalDateTime, Number>) series.getData().get(series.getData().size() - 1);
             pointsList.add(data);
             series.getData().remove(data);
             try {
@@ -135,7 +135,7 @@ public class GraphActions {
 
         try{
             filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").parse(lastPoint);
-            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Float>)pointsList.get(pointsList.size() - 1)).getXValue()));
+            currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(String.valueOf(((XYChart.Data<LocalDateTime, Number>)pointsList.get(pointsList.size() - 1)).getXValue()));
         }catch (ParseException e){
             try {
                 filterDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(lastPoint);
@@ -149,11 +149,11 @@ public class GraphActions {
         }
 
         while (filterDate.getTime() > currentDate.getTime()) {
-
-            XYChart.Data<LocalDateTime, Float> frontData = (XYChart.Data<LocalDateTime, Float>)pointsList.get(pointsList.size() - 1);
+            if (pointsList.size() == 0)return;
+            XYChart.Data<LocalDateTime, Number> frontData = (XYChart.Data<LocalDateTime, Number>)pointsList.get(pointsList.size() - 1);
             pointsList.remove(frontData);
             String dateFront = String.valueOf(frontData.getXValue());
-            Float valueFront = frontData.getYValue();
+            Number valueFront = frontData.getYValue();
             series.getData().add(new XYChart.Data(frontData.getXValue(), valueFront));
             try {
                 currentDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(String.valueOf(frontData.getXValue()));

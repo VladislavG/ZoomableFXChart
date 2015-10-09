@@ -1,11 +1,16 @@
 package solrTest;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.embedded.EmbeddedSolrServer;
 import org.apache.solr.client.solrj.response.QueryResponse;
-import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.core.CoreContainer;
 import org.opendolphin.core.comm.Command;
@@ -14,15 +19,11 @@ import org.opendolphin.core.server.ServerAttribute;
 import org.opendolphin.core.server.action.DolphinServerAction;
 import org.opendolphin.core.server.comm.ActionRegistry;
 import org.opendolphin.core.server.comm.CommandHandler;
-import solrTest.Item;
-import solrTest.SolrService;
-import static solrTest.ApplicationConstants.STATE;
-import static solrTest.ApplicationConstants.STARTDATE;
-import static solrTest.ApplicationConstants.ENDDATE;
-import static solrTest.ApplicationConstants.DISABLED;
 
-import java.lang.reflect.Field;
-import java.util.*;
+import static solrTest.ApplicationConstants.DISABLED;
+import static solrTest.ApplicationConstants.ENDDATE;
+import static solrTest.ApplicationConstants.STARTDATE;
+import static solrTest.ApplicationConstants.STATE;
 
 public class ApplicationAction extends DolphinServerAction{
     private static final String SOLR_INDEX_DIR = "solr";

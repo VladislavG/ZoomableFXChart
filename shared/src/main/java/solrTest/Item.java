@@ -1,12 +1,5 @@
 package solrTest;
 
-/**
-* Created with IntelliJ IDEA.
-* User: vladislav
-* Date: 19.11.13
-* Time: 14:55
-* To change this solrTest use File | Settings | File Templates.
-*/
 public class Item {
     private String id;
     private String date;

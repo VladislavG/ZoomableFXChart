@@ -8,11 +8,6 @@ group='solrTest'
 version = '0.0.1'
 
 
-repositories {
-    mavenCentral()
-}
-
-
 dependencies {
     //compile 'org.jfxtras:jfxtras-labs:2.2-r4'
     testCompile group: 'junit', name: 'junit', version: '4.10'

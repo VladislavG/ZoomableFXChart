@@ -2,6 +2,7 @@ package solrTest;
 
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -36,7 +37,9 @@ public class SolrService {
 
     public static SolrServer getSolrServer() throws SolrServerException {
         if (null == solrServer) {
-            String solrHome = "C:\\Users\\vladislav\\jumpstart-gradle\\client\\src\\main\\resources\\solr";
+            final String dir = System.getProperty("user.dir");
+            String solrHome = dir + File.separator + SOLR_INDEX_DIR;
+            System.out.println("solrHome = " + solrHome);
             CoreContainer coreContainer = new CoreContainer(solrHome);
             coreContainer.load();
             solrServer = new EmbeddedSolrServer(coreContainer, CORE_NAME);
@@ -47,8 +50,7 @@ public class SolrService {
 
     public static void main(String[] args) throws SolrServerException, FileNotFoundException, IOException {
         long start = System.currentTimeMillis();
-        SolrService solrService = new SolrService();
-        solrServer = solrService.getSolrServer();
+        SolrService.getSolrServer();
 
         InputStream stream = SolrService.class.getClassLoader().getResourceAsStream("stocks.csv");
         InputStream stream2 = SolrService.class.getClassLoader().getResourceAsStream("stocks2.csv");
